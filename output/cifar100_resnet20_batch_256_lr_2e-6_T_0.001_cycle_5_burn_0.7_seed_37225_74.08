@@ -1,0 +1,2013 @@
+Namespace(LRanneal=1.0, LRgap=0.66, T=0.001, Tanneal=1.0, Tanneal_stop=1.0, Tgap=0.2, alpha=0.3, batch=256, bias_F=150000.0, burn=0.7, chains=1, cool=1, cycle=5, data='cifar100', depth=20, gpu=0, lr=2e-06, momentum=0.9, period=0, seed=37225, sn=1000, total=50000, var_reduce=0, wdecay=25)
+Files already downloaded and verified
+Chain 0 Initial learning rate 2.00e-06 temperature 1.00e-03
+Chain 0 Cooling down for optimization
+Epoch 0 Chain 0 Acc: 9.33 BMA: 0.00 Best Acc: 9.33 Best BMA: 0.00 T: 1.00E-13  Loss: 188674.12 Corrections: 0.00
+
+Epoch 1 Chain 0 Acc: 15.65 BMA: 0.00 Best Acc: 15.65 Best BMA: 0.00 T: 1.00E-13  Loss: 166359.20 Corrections: 0.00
+
+Epoch 2 Chain 0 Acc: 20.86 BMA: 0.00 Best Acc: 20.86 Best BMA: 0.00 T: 1.00E-13  Loss: 142842.28 Corrections: 0.00
+
+Epoch 3 Chain 0 Acc: 25.17 BMA: 0.00 Best Acc: 25.17 Best BMA: 0.00 T: 1.00E-13  Loss: 160070.58 Corrections: 0.00
+
+Epoch 4 Chain 0 Acc: 28.04 BMA: 0.00 Best Acc: 28.04 Best BMA: 0.00 T: 1.00E-13  Loss: 135617.47 Corrections: 0.00
+
+Epoch 5 Chain 0 Acc: 28.44 BMA: 0.00 Best Acc: 28.44 Best BMA: 0.00 T: 1.00E-13  Loss: 126282.87 Corrections: 0.00
+
+Epoch 6 Chain 0 Acc: 28.20 BMA: 0.00 Best Acc: 28.44 Best BMA: 0.00 T: 1.00E-13  Loss: 121337.66 Corrections: 0.00
+
+Epoch 7 Chain 0 Acc: 30.61 BMA: 0.00 Best Acc: 30.61 Best BMA: 0.00 T: 1.00E-13  Loss: 113434.19 Corrections: 0.00
+
+Epoch 8 Chain 0 Acc: 33.39 BMA: 0.00 Best Acc: 33.39 Best BMA: 0.00 T: 1.00E-13  Loss: 122580.93 Corrections: 0.00
+
+Epoch 9 Chain 0 Acc: 33.40 BMA: 0.00 Best Acc: 33.40 Best BMA: 0.00 T: 1.00E-13  Loss: 131328.59 Corrections: 0.00
+
+Epoch 10 Chain 0 Acc: 35.05 BMA: 0.00 Best Acc: 35.05 Best BMA: 0.00 T: 1.00E-13  Loss: 104879.05 Corrections: 0.00
+
+Epoch 11 Chain 0 Acc: 44.25 BMA: 0.00 Best Acc: 44.25 Best BMA: 0.00 T: 1.00E-13  Loss: 105931.59 Corrections: 0.00
+
+Epoch 12 Chain 0 Acc: 40.43 BMA: 0.00 Best Acc: 44.25 Best BMA: 0.00 T: 1.00E-13  Loss: 105073.79 Corrections: 0.00
+
+Epoch 13 Chain 0 Acc: 41.06 BMA: 0.00 Best Acc: 44.25 Best BMA: 0.00 T: 1.00E-13  Loss: 96748.53 Corrections: 0.00
+
+Epoch 14 Chain 0 Acc: 39.84 BMA: 0.00 Best Acc: 44.25 Best BMA: 0.00 T: 1.00E-13  Loss: 99012.93 Corrections: 0.00
+
+Epoch 15 Chain 0 Acc: 39.65 BMA: 0.00 Best Acc: 44.25 Best BMA: 0.00 T: 1.00E-13  Loss: 103445.96 Corrections: 0.00
+
+Epoch 16 Chain 0 Acc: 43.92 BMA: 0.00 Best Acc: 44.25 Best BMA: 0.00 T: 1.00E-13  Loss: 87363.41 Corrections: 0.00
+
+Epoch 17 Chain 0 Acc: 39.85 BMA: 0.00 Best Acc: 44.25 Best BMA: 0.00 T: 1.00E-13  Loss: 107952.84 Corrections: 0.00
+
+Epoch 18 Chain 0 Acc: 42.81 BMA: 0.00 Best Acc: 44.25 Best BMA: 0.00 T: 1.00E-13  Loss: 92236.58 Corrections: 0.00
+
+Epoch 19 Chain 0 Acc: 46.56 BMA: 0.00 Best Acc: 46.56 Best BMA: 0.00 T: 1.00E-13  Loss: 83160.95 Corrections: 0.00
+
+Epoch 20 Chain 0 Acc: 50.82 BMA: 0.00 Best Acc: 50.82 Best BMA: 0.00 T: 1.00E-13  Loss: 89499.41 Corrections: 0.00
+
+Epoch 21 Chain 0 Acc: 38.97 BMA: 0.00 Best Acc: 50.82 Best BMA: 0.00 T: 1.00E-13  Loss: 103006.52 Corrections: 0.00
+
+Epoch 22 Chain 0 Acc: 45.58 BMA: 0.00 Best Acc: 50.82 Best BMA: 0.00 T: 1.00E-13  Loss: 81663.57 Corrections: 0.00
+
+Epoch 23 Chain 0 Acc: 40.02 BMA: 0.00 Best Acc: 50.82 Best BMA: 0.00 T: 1.00E-13  Loss: 85822.68 Corrections: 0.00
+
+Epoch 24 Chain 0 Acc: 43.01 BMA: 0.00 Best Acc: 50.82 Best BMA: 0.00 T: 1.00E-13  Loss: 104841.42 Corrections: 0.00
+
+Epoch 25 Chain 0 Acc: 41.58 BMA: 0.00 Best Acc: 50.82 Best BMA: 0.00 T: 1.00E-13  Loss: 109340.82 Corrections: 0.00
+
+Epoch 26 Chain 0 Acc: 50.98 BMA: 0.00 Best Acc: 50.98 Best BMA: 0.00 T: 1.00E-13  Loss: 90808.66 Corrections: 0.00
+
+Epoch 27 Chain 0 Acc: 49.50 BMA: 0.00 Best Acc: 50.98 Best BMA: 0.00 T: 1.00E-13  Loss: 83587.62 Corrections: 0.00
+
+Epoch 28 Chain 0 Acc: 45.85 BMA: 0.00 Best Acc: 50.98 Best BMA: 0.00 T: 1.00E-13  Loss: 93533.80 Corrections: 0.00
+
+Epoch 29 Chain 0 Acc: 44.56 BMA: 0.00 Best Acc: 50.98 Best BMA: 0.00 T: 1.00E-13  Loss: 86902.70 Corrections: 0.00
+
+Epoch 30 Chain 0 Acc: 47.04 BMA: 0.00 Best Acc: 50.98 Best BMA: 0.00 T: 1.00E-13  Loss: 84261.18 Corrections: 0.00
+
+Epoch 31 Chain 0 Acc: 48.83 BMA: 0.00 Best Acc: 50.98 Best BMA: 0.00 T: 1.00E-13  Loss: 85314.87 Corrections: 0.00
+
+Epoch 32 Chain 0 Acc: 44.64 BMA: 0.00 Best Acc: 50.98 Best BMA: 0.00 T: 1.00E-13  Loss: 75474.87 Corrections: 0.00
+
+Epoch 33 Chain 0 Acc: 45.66 BMA: 0.00 Best Acc: 50.98 Best BMA: 0.00 T: 1.00E-13  Loss: 79738.26 Corrections: 0.00
+
+Epoch 34 Chain 0 Acc: 46.65 BMA: 0.00 Best Acc: 50.98 Best BMA: 0.00 T: 1.00E-13  Loss: 87951.02 Corrections: 0.00
+
+Epoch 35 Chain 0 Acc: 41.43 BMA: 0.00 Best Acc: 50.98 Best BMA: 0.00 T: 1.00E-13  Loss: 82456.70 Corrections: 0.00
+
+Epoch 36 Chain 0 Acc: 50.60 BMA: 0.00 Best Acc: 50.98 Best BMA: 0.00 T: 1.00E-13  Loss: 94313.45 Corrections: 0.00
+
+Epoch 37 Chain 0 Acc: 48.89 BMA: 0.00 Best Acc: 50.98 Best BMA: 0.00 T: 1.00E-13  Loss: 93694.41 Corrections: 0.00
+
+Epoch 38 Chain 0 Acc: 47.87 BMA: 0.00 Best Acc: 50.98 Best BMA: 0.00 T: 1.00E-13  Loss: 83379.66 Corrections: 0.00
+
+Epoch 39 Chain 0 Acc: 49.78 BMA: 0.00 Best Acc: 50.98 Best BMA: 0.00 T: 1.00E-13  Loss: 87784.69 Corrections: 0.00
+
+Epoch 40 Chain 0 Acc: 48.14 BMA: 0.00 Best Acc: 50.98 Best BMA: 0.00 T: 1.00E-13  Loss: 91781.16 Corrections: 0.00
+
+Epoch 41 Chain 0 Acc: 47.86 BMA: 0.00 Best Acc: 50.98 Best BMA: 0.00 T: 1.00E-13  Loss: 85151.80 Corrections: 0.00
+
+Epoch 42 Chain 0 Acc: 51.35 BMA: 0.00 Best Acc: 51.35 Best BMA: 0.00 T: 1.00E-13  Loss: 84188.11 Corrections: 0.00
+
+Epoch 43 Chain 0 Acc: 47.62 BMA: 0.00 Best Acc: 51.35 Best BMA: 0.00 T: 1.00E-13  Loss: 76496.88 Corrections: 0.00
+
+Epoch 44 Chain 0 Acc: 53.71 BMA: 0.00 Best Acc: 53.71 Best BMA: 0.00 T: 1.00E-13  Loss: 89313.85 Corrections: 0.00
+
+Epoch 45 Chain 0 Acc: 43.31 BMA: 0.00 Best Acc: 53.71 Best BMA: 0.00 T: 1.00E-13  Loss: 95742.41 Corrections: 0.00
+
+Epoch 46 Chain 0 Acc: 47.74 BMA: 0.00 Best Acc: 53.71 Best BMA: 0.00 T: 1.00E-13  Loss: 81952.08 Corrections: 0.00
+
+Epoch 47 Chain 0 Acc: 49.62 BMA: 0.00 Best Acc: 53.71 Best BMA: 0.00 T: 1.00E-13  Loss: 88787.80 Corrections: 0.00
+
+Epoch 48 Chain 0 Acc: 47.65 BMA: 0.00 Best Acc: 53.71 Best BMA: 0.00 T: 1.00E-13  Loss: 76817.41 Corrections: 0.00
+
+Epoch 49 Chain 0 Acc: 51.17 BMA: 0.00 Best Acc: 53.71 Best BMA: 0.00 T: 1.00E-13  Loss: 78416.98 Corrections: 0.00
+
+Epoch 50 Chain 0 Acc: 51.48 BMA: 0.00 Best Acc: 53.71 Best BMA: 0.00 T: 1.00E-13  Loss: 101199.60 Corrections: 0.00
+
+Epoch 51 Chain 0 Acc: 51.91 BMA: 0.00 Best Acc: 53.71 Best BMA: 0.00 T: 1.00E-13  Loss: 94699.05 Corrections: 0.00
+
+Epoch 52 Chain 0 Acc: 50.40 BMA: 0.00 Best Acc: 53.71 Best BMA: 0.00 T: 1.00E-13  Loss: 80649.62 Corrections: 0.00
+
+Epoch 53 Chain 0 Acc: 52.35 BMA: 0.00 Best Acc: 53.71 Best BMA: 0.00 T: 1.00E-13  Loss: 90527.52 Corrections: 0.00
+
+Epoch 54 Chain 0 Acc: 50.12 BMA: 0.00 Best Acc: 53.71 Best BMA: 0.00 T: 1.00E-13  Loss: 68440.63 Corrections: 0.00
+
+Epoch 55 Chain 0 Acc: 49.10 BMA: 0.00 Best Acc: 53.71 Best BMA: 0.00 T: 1.00E-13  Loss: 79972.73 Corrections: 0.00
+
+Epoch 56 Chain 0 Acc: 47.55 BMA: 0.00 Best Acc: 53.71 Best BMA: 0.00 T: 1.00E-13  Loss: 86174.05 Corrections: 0.00
+
+Epoch 57 Chain 0 Acc: 49.69 BMA: 0.00 Best Acc: 53.71 Best BMA: 0.00 T: 1.00E-13  Loss: 60665.94 Corrections: 0.00
+
+Epoch 58 Chain 0 Acc: 49.37 BMA: 0.00 Best Acc: 53.71 Best BMA: 0.00 T: 1.00E-13  Loss: 71331.53 Corrections: 0.00
+
+Epoch 59 Chain 0 Acc: 49.61 BMA: 0.00 Best Acc: 53.71 Best BMA: 0.00 T: 1.00E-13  Loss: 79859.92 Corrections: 0.00
+
+Epoch 60 Chain 0 Acc: 51.02 BMA: 0.00 Best Acc: 53.71 Best BMA: 0.00 T: 1.00E-13  Loss: 70281.20 Corrections: 0.00
+
+Epoch 61 Chain 0 Acc: 50.25 BMA: 0.00 Best Acc: 53.71 Best BMA: 0.00 T: 1.00E-13  Loss: 76963.85 Corrections: 0.00
+
+Epoch 62 Chain 0 Acc: 50.75 BMA: 0.00 Best Acc: 53.71 Best BMA: 0.00 T: 1.00E-13  Loss: 71127.77 Corrections: 0.00
+
+Epoch 63 Chain 0 Acc: 49.19 BMA: 0.00 Best Acc: 53.71 Best BMA: 0.00 T: 1.00E-13  Loss: 62601.83 Corrections: 0.00
+
+Epoch 64 Chain 0 Acc: 51.73 BMA: 0.00 Best Acc: 53.71 Best BMA: 0.00 T: 1.00E-13  Loss: 87801.79 Corrections: 0.00
+
+Epoch 65 Chain 0 Acc: 51.55 BMA: 0.00 Best Acc: 53.71 Best BMA: 0.00 T: 1.00E-13  Loss: 98420.48 Corrections: 0.00
+
+Epoch 66 Chain 0 Acc: 48.95 BMA: 0.00 Best Acc: 53.71 Best BMA: 0.00 T: 1.00E-13  Loss: 72904.58 Corrections: 0.00
+
+Epoch 67 Chain 0 Acc: 52.48 BMA: 0.00 Best Acc: 53.71 Best BMA: 0.00 T: 1.00E-13  Loss: 62989.47 Corrections: 0.00
+
+Epoch 68 Chain 0 Acc: 54.23 BMA: 0.00 Best Acc: 54.23 Best BMA: 0.00 T: 1.00E-13  Loss: 79695.78 Corrections: 0.00
+
+Epoch 69 Chain 0 Acc: 51.12 BMA: 0.00 Best Acc: 54.23 Best BMA: 0.00 T: 1.00E-13  Loss: 76757.50 Corrections: 0.00
+
+Epoch 70 Chain 0 Acc: 48.15 BMA: 0.00 Best Acc: 54.23 Best BMA: 0.00 T: 1.00E-13  Loss: 79259.60 Corrections: 0.00
+
+Epoch 71 Chain 0 Acc: 53.67 BMA: 0.00 Best Acc: 54.23 Best BMA: 0.00 T: 1.00E-13  Loss: 92036.90 Corrections: 0.00
+
+Epoch 72 Chain 0 Acc: 50.69 BMA: 0.00 Best Acc: 54.23 Best BMA: 0.00 T: 1.00E-13  Loss: 76851.38 Corrections: 0.00
+
+Epoch 73 Chain 0 Acc: 55.44 BMA: 0.00 Best Acc: 55.44 Best BMA: 0.00 T: 1.00E-13  Loss: 84697.07 Corrections: 0.00
+
+Epoch 74 Chain 0 Acc: 54.41 BMA: 0.00 Best Acc: 55.44 Best BMA: 0.00 T: 1.00E-13  Loss: 66740.92 Corrections: 0.00
+
+Epoch 75 Chain 0 Acc: 50.51 BMA: 0.00 Best Acc: 55.44 Best BMA: 0.00 T: 1.00E-13  Loss: 66981.44 Corrections: 0.00
+
+Epoch 76 Chain 0 Acc: 51.50 BMA: 0.00 Best Acc: 55.44 Best BMA: 0.00 T: 1.00E-13  Loss: 78940.10 Corrections: 0.00
+
+Epoch 77 Chain 0 Acc: 51.51 BMA: 0.00 Best Acc: 55.44 Best BMA: 0.00 T: 1.00E-13  Loss: 86928.26 Corrections: 0.00
+
+Epoch 78 Chain 0 Acc: 51.36 BMA: 0.00 Best Acc: 55.44 Best BMA: 0.00 T: 1.00E-13  Loss: 77411.40 Corrections: 0.00
+
+Epoch 79 Chain 0 Acc: 54.35 BMA: 0.00 Best Acc: 55.44 Best BMA: 0.00 T: 1.00E-13  Loss: 76402.07 Corrections: 0.00
+
+Epoch 80 Chain 0 Acc: 48.95 BMA: 0.00 Best Acc: 55.44 Best BMA: 0.00 T: 1.00E-13  Loss: 64069.32 Corrections: 0.00
+
+Epoch 81 Chain 0 Acc: 51.66 BMA: 0.00 Best Acc: 55.44 Best BMA: 0.00 T: 1.00E-13  Loss: 60936.96 Corrections: 0.00
+
+Epoch 82 Chain 0 Acc: 50.75 BMA: 0.00 Best Acc: 55.44 Best BMA: 0.00 T: 1.00E-13  Loss: 64561.74 Corrections: 0.00
+
+Epoch 83 Chain 0 Acc: 55.06 BMA: 0.00 Best Acc: 55.44 Best BMA: 0.00 T: 1.00E-13  Loss: 75568.16 Corrections: 0.00
+
+Epoch 84 Chain 0 Acc: 55.26 BMA: 0.00 Best Acc: 55.44 Best BMA: 0.00 T: 1.00E-13  Loss: 63699.79 Corrections: 0.00
+
+Epoch 85 Chain 0 Acc: 49.42 BMA: 0.00 Best Acc: 55.44 Best BMA: 0.00 T: 1.00E-13  Loss: 65953.38 Corrections: 0.00
+
+Epoch 86 Chain 0 Acc: 54.65 BMA: 0.00 Best Acc: 55.44 Best BMA: 0.00 T: 1.00E-13  Loss: 69518.41 Corrections: 0.00
+
+Epoch 87 Chain 0 Acc: 54.58 BMA: 0.00 Best Acc: 55.44 Best BMA: 0.00 T: 1.00E-13  Loss: 70657.79 Corrections: 0.00
+
+Epoch 88 Chain 0 Acc: 55.00 BMA: 0.00 Best Acc: 55.44 Best BMA: 0.00 T: 1.00E-13  Loss: 63735.32 Corrections: 0.00
+
+Epoch 89 Chain 0 Acc: 54.48 BMA: 0.00 Best Acc: 55.44 Best BMA: 0.00 T: 1.00E-13  Loss: 64180.00 Corrections: 0.00
+
+Epoch 90 Chain 0 Acc: 54.49 BMA: 0.00 Best Acc: 55.44 Best BMA: 0.00 T: 1.00E-13  Loss: 82412.80 Corrections: 0.00
+
+Epoch 91 Chain 0 Acc: 55.39 BMA: 0.00 Best Acc: 55.44 Best BMA: 0.00 T: 1.00E-13  Loss: 68170.95 Corrections: 0.00
+
+Epoch 92 Chain 0 Acc: 57.39 BMA: 0.00 Best Acc: 57.39 Best BMA: 0.00 T: 1.00E-13  Loss: 69353.38 Corrections: 0.00
+
+Epoch 93 Chain 0 Acc: 50.64 BMA: 0.00 Best Acc: 57.39 Best BMA: 0.00 T: 1.00E-13  Loss: 57283.69 Corrections: 0.00
+
+Epoch 94 Chain 0 Acc: 54.13 BMA: 0.00 Best Acc: 57.39 Best BMA: 0.00 T: 1.00E-13  Loss: 68675.79 Corrections: 0.00
+
+Epoch 95 Chain 0 Acc: 56.24 BMA: 0.00 Best Acc: 57.39 Best BMA: 0.00 T: 1.00E-13  Loss: 66190.73 Corrections: 0.00
+
+Epoch 96 Chain 0 Acc: 53.21 BMA: 0.00 Best Acc: 57.39 Best BMA: 0.00 T: 1.00E-13  Loss: 72401.29 Corrections: 0.00
+
+Epoch 97 Chain 0 Acc: 57.09 BMA: 0.00 Best Acc: 57.39 Best BMA: 0.00 T: 1.00E-13  Loss: 62416.92 Corrections: 0.00
+
+Epoch 98 Chain 0 Acc: 53.87 BMA: 0.00 Best Acc: 57.39 Best BMA: 0.00 T: 1.00E-13  Loss: 65195.31 Corrections: 0.00
+
+Epoch 99 Chain 0 Acc: 55.74 BMA: 0.00 Best Acc: 57.39 Best BMA: 0.00 T: 1.00E-13  Loss: 74785.58 Corrections: 0.00
+
+Epoch 100 Chain 0 Acc: 54.87 BMA: 0.00 Best Acc: 57.39 Best BMA: 0.00 T: 1.00E-13  Loss: 66234.76 Corrections: 0.00
+
+Epoch 101 Chain 0 Acc: 56.91 BMA: 0.00 Best Acc: 57.39 Best BMA: 0.00 T: 1.00E-13  Loss: 61280.23 Corrections: 0.00
+
+Epoch 102 Chain 0 Acc: 55.87 BMA: 0.00 Best Acc: 57.39 Best BMA: 0.00 T: 1.00E-13  Loss: 68931.38 Corrections: 0.00
+
+Epoch 103 Chain 0 Acc: 58.53 BMA: 0.00 Best Acc: 58.53 Best BMA: 0.00 T: 1.00E-13  Loss: 67602.52 Corrections: 0.00
+
+Epoch 104 Chain 0 Acc: 58.16 BMA: 0.00 Best Acc: 58.53 Best BMA: 0.00 T: 1.00E-13  Loss: 95090.42 Corrections: 0.00
+
+Epoch 105 Chain 0 Acc: 54.37 BMA: 0.00 Best Acc: 58.53 Best BMA: 0.00 T: 1.00E-13  Loss: 68516.13 Corrections: 0.00
+
+Epoch 106 Chain 0 Acc: 57.20 BMA: 0.00 Best Acc: 58.53 Best BMA: 0.00 T: 1.00E-13  Loss: 73905.48 Corrections: 0.00
+
+Epoch 107 Chain 0 Acc: 53.99 BMA: 0.00 Best Acc: 58.53 Best BMA: 0.00 T: 1.00E-13  Loss: 72138.88 Corrections: 0.00
+
+Epoch 108 Chain 0 Acc: 58.65 BMA: 0.00 Best Acc: 58.65 Best BMA: 0.00 T: 1.00E-13  Loss: 72389.30 Corrections: 0.00
+
+Epoch 109 Chain 0 Acc: 53.61 BMA: 0.00 Best Acc: 58.65 Best BMA: 0.00 T: 1.00E-13  Loss: 65525.95 Corrections: 0.00
+
+Epoch 110 Chain 0 Acc: 57.93 BMA: 0.00 Best Acc: 58.65 Best BMA: 0.00 T: 1.00E-13  Loss: 55973.13 Corrections: 0.00
+
+Epoch 111 Chain 0 Acc: 56.77 BMA: 0.00 Best Acc: 58.65 Best BMA: 0.00 T: 1.00E-13  Loss: 62836.77 Corrections: 0.00
+
+Epoch 112 Chain 0 Acc: 59.44 BMA: 0.00 Best Acc: 59.44 Best BMA: 0.00 T: 1.00E-13  Loss: 68012.93 Corrections: 0.00
+
+Epoch 113 Chain 0 Acc: 57.07 BMA: 0.00 Best Acc: 59.44 Best BMA: 0.00 T: 1.00E-13  Loss: 63779.12 Corrections: 0.00
+
+Epoch 114 Chain 0 Acc: 59.25 BMA: 0.00 Best Acc: 59.44 Best BMA: 0.00 T: 1.00E-13  Loss: 62152.88 Corrections: 0.00
+
+Epoch 115 Chain 0 Acc: 56.32 BMA: 0.00 Best Acc: 59.44 Best BMA: 0.00 T: 1.00E-13  Loss: 64816.25 Corrections: 0.00
+
+Epoch 116 Chain 0 Acc: 56.04 BMA: 0.00 Best Acc: 59.44 Best BMA: 0.00 T: 1.00E-13  Loss: 57320.02 Corrections: 0.00
+
+Epoch 117 Chain 0 Acc: 58.78 BMA: 0.00 Best Acc: 59.44 Best BMA: 0.00 T: 1.00E-13  Loss: 50408.95 Corrections: 0.00
+
+Epoch 118 Chain 0 Acc: 58.84 BMA: 0.00 Best Acc: 59.44 Best BMA: 0.00 T: 1.00E-13  Loss: 65269.03 Corrections: 0.00
+
+Epoch 119 Chain 0 Acc: 60.73 BMA: 0.00 Best Acc: 60.73 Best BMA: 0.00 T: 1.00E-13  Loss: 70806.50 Corrections: 0.00
+
+Epoch 120 Chain 0 Acc: 57.97 BMA: 0.00 Best Acc: 60.73 Best BMA: 0.00 T: 1.00E-13  Loss: 49247.03 Corrections: 0.00
+
+Epoch 121 Chain 0 Acc: 60.63 BMA: 0.00 Best Acc: 60.73 Best BMA: 0.00 T: 1.00E-13  Loss: 60409.59 Corrections: 0.00
+
+Epoch 122 Chain 0 Acc: 57.53 BMA: 0.00 Best Acc: 60.73 Best BMA: 0.00 T: 1.00E-13  Loss: 56714.93 Corrections: 0.00
+
+Epoch 123 Chain 0 Acc: 54.44 BMA: 0.00 Best Acc: 60.73 Best BMA: 0.00 T: 1.00E-13  Loss: 78558.03 Corrections: 0.00
+
+Epoch 124 Chain 0 Acc: 57.51 BMA: 0.00 Best Acc: 60.73 Best BMA: 0.00 T: 1.00E-13  Loss: 76619.92 Corrections: 0.00
+
+Epoch 125 Chain 0 Acc: 58.74 BMA: 0.00 Best Acc: 60.73 Best BMA: 0.00 T: 1.00E-13  Loss: 49871.58 Corrections: 0.00
+
+Epoch 126 Chain 0 Acc: 60.71 BMA: 0.00 Best Acc: 60.73 Best BMA: 0.00 T: 1.00E-13  Loss: 50302.48 Corrections: 0.00
+
+Epoch 127 Chain 0 Acc: 58.26 BMA: 0.00 Best Acc: 60.73 Best BMA: 0.00 T: 1.00E-13  Loss: 59888.00 Corrections: 0.00
+
+Epoch 128 Chain 0 Acc: 58.74 BMA: 0.00 Best Acc: 60.73 Best BMA: 0.00 T: 1.00E-13  Loss: 59643.32 Corrections: 0.00
+
+Epoch 129 Chain 0 Acc: 62.24 BMA: 0.00 Best Acc: 62.24 Best BMA: 0.00 T: 1.00E-13  Loss: 59232.16 Corrections: 0.00
+
+Epoch 130 Chain 0 Acc: 61.28 BMA: 0.00 Best Acc: 62.24 Best BMA: 0.00 T: 1.00E-13  Loss: 51172.24 Corrections: 0.00
+
+Epoch 131 Chain 0 Acc: 58.58 BMA: 0.00 Best Acc: 62.24 Best BMA: 0.00 T: 1.00E-13  Loss: 69923.91 Corrections: 0.00
+
+Epoch 132 Chain 0 Acc: 61.56 BMA: 0.00 Best Acc: 62.24 Best BMA: 0.00 T: 1.00E-13  Loss: 49418.09 Corrections: 0.00
+
+Epoch 133 Chain 0 Acc: 61.80 BMA: 0.00 Best Acc: 62.24 Best BMA: 0.00 T: 1.00E-13  Loss: 60123.74 Corrections: 0.00
+
+Epoch 134 Chain 0 Acc: 61.68 BMA: 0.00 Best Acc: 62.24 Best BMA: 0.00 T: 1.00E-13  Loss: 64681.77 Corrections: 0.00
+
+Epoch 135 Chain 0 Acc: 61.35 BMA: 0.00 Best Acc: 62.24 Best BMA: 0.00 T: 1.00E-13  Loss: 44448.35 Corrections: 0.00
+
+Epoch 136 Chain 0 Acc: 60.07 BMA: 0.00 Best Acc: 62.24 Best BMA: 0.00 T: 1.00E-13  Loss: 51308.48 Corrections: 0.00
+
+Epoch 137 Chain 0 Acc: 62.23 BMA: 0.00 Best Acc: 62.24 Best BMA: 0.00 T: 1.00E-13  Loss: 55343.50 Corrections: 0.00
+
+Epoch 138 Chain 0 Acc: 61.91 BMA: 0.00 Best Acc: 62.24 Best BMA: 0.00 T: 1.00E-13  Loss: 52565.56 Corrections: 0.00
+
+Epoch 139 Chain 0 Acc: 62.97 BMA: 0.00 Best Acc: 62.97 Best BMA: 0.00 T: 1.00E-13  Loss: 76928.98 Corrections: 0.00
+
+Chain 0 Heating up for sampling
+Epoch 140 Chain 0 Acc: 62.50 BMA: 62.50 Best Acc: 62.97 Best BMA: 62.50 T: 1.00E-03  Loss: 52788.15 Corrections: 0.00
+
+Epoch 141 Chain 0 Acc: 62.02 BMA: 65.84 Best Acc: 62.97 Best BMA: 65.84 T: 1.00E-03  Loss: 60324.83 Corrections: 0.00
+
+Epoch 142 Chain 0 Acc: 62.45 BMA: 66.76 Best Acc: 62.97 Best BMA: 66.76 T: 1.00E-03  Loss: 69398.81 Corrections: 0.00
+
+Epoch 143 Chain 0 Acc: 62.09 BMA: 67.51 Best Acc: 62.97 Best BMA: 67.51 T: 1.00E-03  Loss: 50711.00 Corrections: 0.00
+
+Epoch 144 Chain 0 Acc: 62.80 BMA: 67.91 Best Acc: 62.97 Best BMA: 67.91 T: 1.00E-03  Loss: 51930.10 Corrections: 0.00
+
+Epoch 145 Chain 0 Acc: 63.54 BMA: 68.23 Best Acc: 63.54 Best BMA: 68.23 T: 1.00E-03  Loss: 49975.45 Corrections: 0.00
+
+Epoch 146 Chain 0 Acc: 64.53 BMA: 68.45 Best Acc: 64.53 Best BMA: 68.45 T: 1.00E-03  Loss: 44299.05 Corrections: 0.00
+
+Epoch 147 Chain 0 Acc: 63.61 BMA: 68.84 Best Acc: 64.53 Best BMA: 68.84 T: 1.00E-03  Loss: 60849.48 Corrections: 0.00
+
+Epoch 148 Chain 0 Acc: 64.27 BMA: 68.95 Best Acc: 64.53 Best BMA: 68.95 T: 1.00E-03  Loss: 68522.64 Corrections: 0.00
+
+Epoch 149 Chain 0 Acc: 63.89 BMA: 69.08 Best Acc: 64.53 Best BMA: 69.08 T: 1.00E-03  Loss: 58239.44 Corrections: 0.00
+
+Epoch 150 Chain 0 Acc: 63.12 BMA: 68.95 Best Acc: 64.53 Best BMA: 69.08 T: 1.00E-03  Loss: 47409.33 Corrections: 0.00
+
+Epoch 151 Chain 0 Acc: 63.93 BMA: 68.98 Best Acc: 64.53 Best BMA: 69.08 T: 1.00E-03  Loss: 45610.23 Corrections: 0.00
+
+Epoch 152 Chain 0 Acc: 64.40 BMA: 69.07 Best Acc: 64.53 Best BMA: 69.08 T: 1.00E-03  Loss: 52624.00 Corrections: 0.00
+
+Epoch 153 Chain 0 Acc: 63.50 BMA: 69.22 Best Acc: 64.53 Best BMA: 69.22 T: 1.00E-03  Loss: 51326.91 Corrections: 0.00
+
+Epoch 154 Chain 0 Acc: 65.66 BMA: 69.08 Best Acc: 65.66 Best BMA: 69.22 T: 1.00E-03  Loss: 46631.78 Corrections: 0.00
+
+Epoch 155 Chain 0 Acc: 64.80 BMA: 69.32 Best Acc: 65.66 Best BMA: 69.32 T: 1.00E-03  Loss: 62251.66 Corrections: 0.00
+
+Epoch 156 Chain 0 Acc: 64.97 BMA: 69.41 Best Acc: 65.66 Best BMA: 69.41 T: 1.00E-03  Loss: 41004.89 Corrections: 0.00
+
+Epoch 157 Chain 0 Acc: 65.59 BMA: 69.40 Best Acc: 65.66 Best BMA: 69.41 T: 1.00E-03  Loss: 61434.39 Corrections: 0.00
+
+Epoch 158 Chain 0 Acc: 63.95 BMA: 69.51 Best Acc: 65.66 Best BMA: 69.51 T: 1.00E-03  Loss: 39030.93 Corrections: 0.00
+
+Epoch 159 Chain 0 Acc: 65.97 BMA: 69.62 Best Acc: 65.97 Best BMA: 69.62 T: 1.00E-03  Loss: 48164.76 Corrections: 0.00
+
+Epoch 160 Chain 0 Acc: 66.38 BMA: 69.71 Best Acc: 66.38 Best BMA: 69.71 T: 1.00E-03  Loss: 50604.07 Corrections: 0.00
+
+Epoch 161 Chain 0 Acc: 66.19 BMA: 69.80 Best Acc: 66.38 Best BMA: 69.80 T: 1.00E-03  Loss: 38025.65 Corrections: 0.00
+
+Epoch 162 Chain 0 Acc: 66.56 BMA: 69.78 Best Acc: 66.56 Best BMA: 69.80 T: 1.00E-03  Loss: 39859.34 Corrections: 0.00
+
+Epoch 163 Chain 0 Acc: 64.99 BMA: 69.77 Best Acc: 66.56 Best BMA: 69.80 T: 1.00E-03  Loss: 55069.91 Corrections: 0.00
+
+Epoch 164 Chain 0 Acc: 66.56 BMA: 69.72 Best Acc: 66.56 Best BMA: 69.80 T: 1.00E-03  Loss: 42141.02 Corrections: 0.00
+
+Epoch 165 Chain 0 Acc: 66.94 BMA: 69.89 Best Acc: 66.94 Best BMA: 69.89 T: 1.00E-03  Loss: 43698.25 Corrections: 0.00
+
+Epoch 166 Chain 0 Acc: 66.07 BMA: 69.98 Best Acc: 66.94 Best BMA: 69.98 T: 1.00E-03  Loss: 56436.69 Corrections: 0.00
+
+Epoch 167 Chain 0 Acc: 67.31 BMA: 69.96 Best Acc: 67.31 Best BMA: 69.98 T: 1.00E-03  Loss: 49478.94 Corrections: 0.00
+
+Epoch 168 Chain 0 Acc: 67.40 BMA: 69.99 Best Acc: 67.40 Best BMA: 69.99 T: 1.00E-03  Loss: 39098.74 Corrections: 0.00
+
+Epoch 169 Chain 0 Acc: 67.75 BMA: 70.01 Best Acc: 67.75 Best BMA: 70.01 T: 1.00E-03  Loss: 42396.18 Corrections: 0.00
+
+Epoch 170 Chain 0 Acc: 67.63 BMA: 70.02 Best Acc: 67.75 Best BMA: 70.02 T: 1.00E-03  Loss: 43763.77 Corrections: 0.00
+
+Epoch 171 Chain 0 Acc: 67.59 BMA: 70.05 Best Acc: 67.75 Best BMA: 70.05 T: 1.00E-03  Loss: 32206.85 Corrections: 0.00
+
+Epoch 172 Chain 0 Acc: 67.63 BMA: 70.04 Best Acc: 67.75 Best BMA: 70.05 T: 1.00E-03  Loss: 50043.69 Corrections: 0.00
+
+Epoch 173 Chain 0 Acc: 67.61 BMA: 69.93 Best Acc: 67.75 Best BMA: 70.05 T: 1.00E-03  Loss: 42176.18 Corrections: 0.00
+
+Epoch 174 Chain 0 Acc: 67.91 BMA: 69.99 Best Acc: 67.91 Best BMA: 70.05 T: 1.00E-03  Loss: 54359.57 Corrections: 0.00
+
+Epoch 175 Chain 0 Acc: 67.95 BMA: 70.08 Best Acc: 67.95 Best BMA: 70.08 T: 1.00E-03  Loss: 36905.51 Corrections: 0.00
+
+Epoch 176 Chain 0 Acc: 68.32 BMA: 70.05 Best Acc: 68.32 Best BMA: 70.08 T: 1.00E-03  Loss: 37087.91 Corrections: 0.00
+
+Epoch 177 Chain 0 Acc: 67.51 BMA: 70.01 Best Acc: 68.32 Best BMA: 70.08 T: 1.00E-03  Loss: 35374.43 Corrections: 0.00
+
+Epoch 178 Chain 0 Acc: 67.62 BMA: 70.03 Best Acc: 68.32 Best BMA: 70.08 T: 1.00E-03  Loss: 49342.90 Corrections: 0.00
+
+Epoch 179 Chain 0 Acc: 67.97 BMA: 70.04 Best Acc: 68.32 Best BMA: 70.08 T: 1.00E-03  Loss: 38267.57 Corrections: 0.00
+
+Epoch 180 Chain 0 Acc: 68.27 BMA: 70.04 Best Acc: 68.32 Best BMA: 70.08 T: 1.00E-03  Loss: 33422.32 Corrections: 0.00
+
+Epoch 181 Chain 0 Acc: 68.45 BMA: 70.06 Best Acc: 68.45 Best BMA: 70.08 T: 1.00E-03  Loss: 38117.91 Corrections: 0.00
+
+Epoch 182 Chain 0 Acc: 68.97 BMA: 70.06 Best Acc: 68.97 Best BMA: 70.08 T: 1.00E-03  Loss: 36980.96 Corrections: 0.00
+
+Epoch 183 Chain 0 Acc: 68.54 BMA: 70.06 Best Acc: 68.97 Best BMA: 70.08 T: 1.00E-03  Loss: 38773.75 Corrections: 0.00
+
+Epoch 184 Chain 0 Acc: 68.75 BMA: 70.06 Best Acc: 68.97 Best BMA: 70.08 T: 1.00E-03  Loss: 46628.44 Corrections: 0.00
+
+Epoch 185 Chain 0 Acc: 68.87 BMA: 69.99 Best Acc: 68.97 Best BMA: 70.08 T: 1.00E-03  Loss: 48970.66 Corrections: 0.00
+
+Epoch 186 Chain 0 Acc: 68.94 BMA: 70.03 Best Acc: 68.97 Best BMA: 70.08 T: 1.00E-03  Loss: 37317.95 Corrections: 0.00
+
+Epoch 187 Chain 0 Acc: 68.77 BMA: 69.97 Best Acc: 68.97 Best BMA: 70.08 T: 1.00E-03  Loss: 32090.23 Corrections: 0.00
+
+Epoch 188 Chain 0 Acc: 68.74 BMA: 69.99 Best Acc: 68.97 Best BMA: 70.08 T: 1.00E-03  Loss: 35507.41 Corrections: 0.00
+
+Epoch 189 Chain 0 Acc: 68.89 BMA: 69.98 Best Acc: 68.97 Best BMA: 70.08 T: 1.00E-03  Loss: 38190.71 Corrections: 0.00
+
+Epoch 190 Chain 0 Acc: 68.95 BMA: 69.98 Best Acc: 68.97 Best BMA: 70.08 T: 1.00E-03  Loss: 32080.59 Corrections: 0.00
+
+Epoch 191 Chain 0 Acc: 69.02 BMA: 69.97 Best Acc: 69.02 Best BMA: 70.08 T: 1.00E-03  Loss: 33643.26 Corrections: 0.00
+
+Epoch 192 Chain 0 Acc: 69.05 BMA: 69.96 Best Acc: 69.05 Best BMA: 70.08 T: 1.00E-03  Loss: 42681.09 Corrections: 0.00
+
+Epoch 193 Chain 0 Acc: 69.00 BMA: 69.92 Best Acc: 69.05 Best BMA: 70.08 T: 1.00E-03  Loss: 41818.90 Corrections: 0.00
+
+Epoch 194 Chain 0 Acc: 68.98 BMA: 69.91 Best Acc: 69.05 Best BMA: 70.08 T: 1.00E-03  Loss: 37518.72 Corrections: 0.00
+
+Epoch 195 Chain 0 Acc: 69.04 BMA: 69.92 Best Acc: 69.05 Best BMA: 70.08 T: 1.00E-03  Loss: 42207.40 Corrections: 0.00
+
+Epoch 196 Chain 0 Acc: 68.96 BMA: 69.88 Best Acc: 69.05 Best BMA: 70.08 T: 1.00E-03  Loss: 42996.96 Corrections: 0.00
+
+Epoch 197 Chain 0 Acc: 69.05 BMA: 69.91 Best Acc: 69.05 Best BMA: 70.08 T: 1.00E-03  Loss: 42266.59 Corrections: 0.00
+
+Epoch 198 Chain 0 Acc: 69.08 BMA: 69.91 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-03  Loss: 38316.67 Corrections: 0.00
+
+Epoch 199 Chain 0 Acc: 68.97 BMA: 69.89 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-03  Loss: 38054.00 Corrections: 0.00
+
+Chain 0 Cooling down for optimization
+Epoch 200 Chain 0 Acc: 40.66 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 94188.03 Corrections: 0.00
+
+Epoch 201 Chain 0 Acc: 39.53 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 103086.40 Corrections: 0.00
+
+Epoch 202 Chain 0 Acc: 45.91 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 89664.30 Corrections: 0.00
+
+Epoch 203 Chain 0 Acc: 48.43 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 86845.34 Corrections: 0.00
+
+Epoch 204 Chain 0 Acc: 45.16 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 76640.45 Corrections: 0.00
+
+Epoch 205 Chain 0 Acc: 47.92 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 89276.45 Corrections: 0.00
+
+Epoch 206 Chain 0 Acc: 44.51 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 74186.19 Corrections: 0.00
+
+Epoch 207 Chain 0 Acc: 48.35 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 74807.87 Corrections: 0.00
+
+Epoch 208 Chain 0 Acc: 46.73 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 78827.77 Corrections: 0.00
+
+Epoch 209 Chain 0 Acc: 47.55 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 81999.16 Corrections: 0.00
+
+Epoch 210 Chain 0 Acc: 47.55 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 82213.12 Corrections: 0.00
+
+Epoch 211 Chain 0 Acc: 52.62 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 79043.14 Corrections: 0.00
+
+Epoch 212 Chain 0 Acc: 48.15 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 86966.62 Corrections: 0.00
+
+Epoch 213 Chain 0 Acc: 47.12 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 86088.47 Corrections: 0.00
+
+Epoch 214 Chain 0 Acc: 52.56 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 75379.73 Corrections: 0.00
+
+Epoch 215 Chain 0 Acc: 52.74 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 67151.66 Corrections: 0.00
+
+Epoch 216 Chain 0 Acc: 48.51 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 85737.73 Corrections: 0.00
+
+Epoch 217 Chain 0 Acc: 41.96 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 80141.72 Corrections: 0.00
+
+Epoch 218 Chain 0 Acc: 49.18 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 92384.59 Corrections: 0.00
+
+Epoch 219 Chain 0 Acc: 47.85 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 78450.55 Corrections: 0.00
+
+Epoch 220 Chain 0 Acc: 50.32 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 87441.70 Corrections: 0.00
+
+Epoch 221 Chain 0 Acc: 48.48 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 87387.05 Corrections: 0.00
+
+Epoch 222 Chain 0 Acc: 48.71 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 91196.12 Corrections: 0.00
+
+Epoch 223 Chain 0 Acc: 51.42 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 65086.54 Corrections: 0.00
+
+Epoch 224 Chain 0 Acc: 51.13 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 71800.48 Corrections: 0.00
+
+Epoch 225 Chain 0 Acc: 48.75 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 88250.43 Corrections: 0.00
+
+Epoch 226 Chain 0 Acc: 46.70 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 90266.53 Corrections: 0.00
+
+Epoch 227 Chain 0 Acc: 53.24 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 88142.49 Corrections: 0.00
+
+Epoch 228 Chain 0 Acc: 51.22 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 76500.43 Corrections: 0.00
+
+Epoch 229 Chain 0 Acc: 51.25 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 73282.51 Corrections: 0.00
+
+Epoch 230 Chain 0 Acc: 54.33 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 65959.10 Corrections: 0.00
+
+Epoch 231 Chain 0 Acc: 52.52 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 62503.17 Corrections: 0.00
+
+Epoch 232 Chain 0 Acc: 47.62 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 77655.05 Corrections: 0.00
+
+Epoch 233 Chain 0 Acc: 50.85 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 73476.72 Corrections: 0.00
+
+Epoch 234 Chain 0 Acc: 49.07 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 86508.16 Corrections: 0.00
+
+Epoch 235 Chain 0 Acc: 49.12 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 72971.19 Corrections: 0.00
+
+Epoch 236 Chain 0 Acc: 52.32 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 82876.00 Corrections: 0.00
+
+Epoch 237 Chain 0 Acc: 53.27 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 55764.98 Corrections: 0.00
+
+Epoch 238 Chain 0 Acc: 53.06 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 65221.27 Corrections: 0.00
+
+Epoch 239 Chain 0 Acc: 49.24 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 83254.59 Corrections: 0.00
+
+Epoch 240 Chain 0 Acc: 48.66 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 82769.38 Corrections: 0.00
+
+Epoch 241 Chain 0 Acc: 50.34 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 79350.98 Corrections: 0.00
+
+Epoch 242 Chain 0 Acc: 50.10 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 92001.15 Corrections: 0.00
+
+Epoch 243 Chain 0 Acc: 53.15 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 82455.80 Corrections: 0.00
+
+Epoch 244 Chain 0 Acc: 50.53 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 77808.37 Corrections: 0.00
+
+Epoch 245 Chain 0 Acc: 49.86 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 70894.05 Corrections: 0.00
+
+Epoch 246 Chain 0 Acc: 52.20 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 79756.89 Corrections: 0.00
+
+Epoch 247 Chain 0 Acc: 48.98 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 63673.82 Corrections: 0.00
+
+Epoch 248 Chain 0 Acc: 52.88 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 63153.44 Corrections: 0.00
+
+Epoch 249 Chain 0 Acc: 51.58 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 79395.05 Corrections: 0.00
+
+Epoch 250 Chain 0 Acc: 47.36 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 71297.85 Corrections: 0.00
+
+Epoch 251 Chain 0 Acc: 49.91 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 72818.41 Corrections: 0.00
+
+Epoch 252 Chain 0 Acc: 53.91 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 60246.73 Corrections: 0.00
+
+Epoch 253 Chain 0 Acc: 52.63 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 78177.47 Corrections: 0.00
+
+Epoch 254 Chain 0 Acc: 53.09 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 80308.50 Corrections: 0.00
+
+Epoch 255 Chain 0 Acc: 55.55 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 61420.26 Corrections: 0.00
+
+Epoch 256 Chain 0 Acc: 49.77 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 77333.25 Corrections: 0.00
+
+Epoch 257 Chain 0 Acc: 53.18 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 82522.03 Corrections: 0.00
+
+Epoch 258 Chain 0 Acc: 50.24 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 81762.30 Corrections: 0.00
+
+Epoch 259 Chain 0 Acc: 53.49 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 67631.34 Corrections: 0.00
+
+Epoch 260 Chain 0 Acc: 54.74 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 73460.16 Corrections: 0.00
+
+Epoch 261 Chain 0 Acc: 51.11 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 64293.97 Corrections: 0.00
+
+Epoch 262 Chain 0 Acc: 53.57 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 57510.22 Corrections: 0.00
+
+Epoch 263 Chain 0 Acc: 55.61 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 80301.73 Corrections: 0.00
+
+Epoch 264 Chain 0 Acc: 52.82 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 95844.87 Corrections: 0.00
+
+Epoch 265 Chain 0 Acc: 55.03 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 69115.01 Corrections: 0.00
+
+Epoch 266 Chain 0 Acc: 55.04 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 71011.81 Corrections: 0.00
+
+Epoch 267 Chain 0 Acc: 53.58 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 64390.27 Corrections: 0.00
+
+Epoch 268 Chain 0 Acc: 55.06 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 73363.38 Corrections: 0.00
+
+Epoch 269 Chain 0 Acc: 52.42 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 89694.12 Corrections: 0.00
+
+Epoch 270 Chain 0 Acc: 53.31 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 80116.14 Corrections: 0.00
+
+Epoch 271 Chain 0 Acc: 51.36 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 83772.93 Corrections: 0.00
+
+Epoch 272 Chain 0 Acc: 55.47 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 96267.28 Corrections: 0.00
+
+Epoch 273 Chain 0 Acc: 56.79 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 58269.27 Corrections: 0.00
+
+Epoch 274 Chain 0 Acc: 55.58 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 73805.86 Corrections: 0.00
+
+Epoch 275 Chain 0 Acc: 54.07 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 60862.18 Corrections: 0.00
+
+Epoch 276 Chain 0 Acc: 55.75 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 64569.17 Corrections: 0.00
+
+Epoch 277 Chain 0 Acc: 57.24 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 63036.36 Corrections: 0.00
+
+Epoch 278 Chain 0 Acc: 54.25 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 60171.21 Corrections: 0.00
+
+Epoch 279 Chain 0 Acc: 53.46 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 74914.53 Corrections: 0.00
+
+Epoch 280 Chain 0 Acc: 57.84 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 62628.57 Corrections: 0.00
+
+Epoch 281 Chain 0 Acc: 51.65 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 77669.58 Corrections: 0.00
+
+Epoch 282 Chain 0 Acc: 56.71 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 77158.68 Corrections: 0.00
+
+Epoch 283 Chain 0 Acc: 54.27 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 85390.42 Corrections: 0.00
+
+Epoch 284 Chain 0 Acc: 54.59 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 69622.75 Corrections: 0.00
+
+Epoch 285 Chain 0 Acc: 54.45 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 66242.15 Corrections: 0.00
+
+Epoch 286 Chain 0 Acc: 57.75 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 51808.00 Corrections: 0.00
+
+Epoch 287 Chain 0 Acc: 53.65 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 65737.05 Corrections: 0.00
+
+Epoch 288 Chain 0 Acc: 56.25 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 64995.37 Corrections: 0.00
+
+Epoch 289 Chain 0 Acc: 57.44 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 55457.70 Corrections: 0.00
+
+Epoch 290 Chain 0 Acc: 55.22 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 69612.95 Corrections: 0.00
+
+Epoch 291 Chain 0 Acc: 57.36 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 76663.99 Corrections: 0.00
+
+Epoch 292 Chain 0 Acc: 58.84 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 61296.49 Corrections: 0.00
+
+Epoch 293 Chain 0 Acc: 55.89 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 54432.16 Corrections: 0.00
+
+Epoch 294 Chain 0 Acc: 56.70 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 79654.27 Corrections: 0.00
+
+Epoch 295 Chain 0 Acc: 58.35 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 55941.91 Corrections: 0.00
+
+Epoch 296 Chain 0 Acc: 52.73 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 74417.67 Corrections: 0.00
+
+Epoch 297 Chain 0 Acc: 57.16 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 76947.27 Corrections: 0.00
+
+Epoch 298 Chain 0 Acc: 58.01 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 59221.64 Corrections: 0.00
+
+Epoch 299 Chain 0 Acc: 57.52 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 68146.85 Corrections: 0.00
+
+Epoch 300 Chain 0 Acc: 55.85 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 50992.65 Corrections: 0.00
+
+Epoch 301 Chain 0 Acc: 57.58 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 61001.46 Corrections: 0.00
+
+Epoch 302 Chain 0 Acc: 60.14 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 62102.96 Corrections: 0.00
+
+Epoch 303 Chain 0 Acc: 58.00 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 69470.29 Corrections: 0.00
+
+Epoch 304 Chain 0 Acc: 59.12 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 65594.29 Corrections: 0.00
+
+Epoch 305 Chain 0 Acc: 57.41 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 69870.18 Corrections: 0.00
+
+Epoch 306 Chain 0 Acc: 57.85 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 71794.78 Corrections: 0.00
+
+Epoch 307 Chain 0 Acc: 60.23 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 61764.96 Corrections: 0.00
+
+Epoch 308 Chain 0 Acc: 60.36 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 74204.70 Corrections: 0.00
+
+Epoch 309 Chain 0 Acc: 57.11 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 75975.87 Corrections: 0.00
+
+Epoch 310 Chain 0 Acc: 57.55 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 44841.38 Corrections: 0.00
+
+Epoch 311 Chain 0 Acc: 58.59 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 75125.52 Corrections: 0.00
+
+Epoch 312 Chain 0 Acc: 57.83 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 68908.26 Corrections: 0.00
+
+Epoch 313 Chain 0 Acc: 60.84 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 82035.03 Corrections: 0.00
+
+Epoch 314 Chain 0 Acc: 59.07 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 60497.08 Corrections: 0.00
+
+Epoch 315 Chain 0 Acc: 58.77 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 66112.52 Corrections: 0.00
+
+Epoch 316 Chain 0 Acc: 60.86 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 59629.56 Corrections: 0.00
+
+Epoch 317 Chain 0 Acc: 62.23 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 51520.52 Corrections: 0.00
+
+Epoch 318 Chain 0 Acc: 59.29 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 66366.79 Corrections: 0.00
+
+Epoch 319 Chain 0 Acc: 59.47 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 62313.43 Corrections: 0.00
+
+Epoch 320 Chain 0 Acc: 59.03 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 48796.29 Corrections: 0.00
+
+Epoch 321 Chain 0 Acc: 60.43 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 63501.80 Corrections: 0.00
+
+Epoch 322 Chain 0 Acc: 61.55 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 77318.16 Corrections: 0.00
+
+Epoch 323 Chain 0 Acc: 60.01 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 55194.05 Corrections: 0.00
+
+Epoch 324 Chain 0 Acc: 60.51 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 57930.62 Corrections: 0.00
+
+Epoch 325 Chain 0 Acc: 62.55 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 60608.23 Corrections: 0.00
+
+Epoch 326 Chain 0 Acc: 61.23 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 63478.53 Corrections: 0.00
+
+Epoch 327 Chain 0 Acc: 63.03 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 62989.98 Corrections: 0.00
+
+Epoch 328 Chain 0 Acc: 60.36 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 44420.57 Corrections: 0.00
+
+Epoch 329 Chain 0 Acc: 61.11 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 67587.39 Corrections: 0.00
+
+Epoch 330 Chain 0 Acc: 60.81 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 64637.89 Corrections: 0.00
+
+Epoch 331 Chain 0 Acc: 62.12 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 50684.06 Corrections: 0.00
+
+Epoch 332 Chain 0 Acc: 60.51 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 73394.59 Corrections: 0.00
+
+Epoch 333 Chain 0 Acc: 61.28 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 54044.58 Corrections: 0.00
+
+Epoch 334 Chain 0 Acc: 63.68 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 54407.20 Corrections: 0.00
+
+Epoch 335 Chain 0 Acc: 63.26 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 49469.70 Corrections: 0.00
+
+Epoch 336 Chain 0 Acc: 63.32 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 47159.69 Corrections: 0.00
+
+Epoch 337 Chain 0 Acc: 62.95 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 55040.62 Corrections: 0.00
+
+Epoch 338 Chain 0 Acc: 64.20 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 38819.34 Corrections: 0.00
+
+Epoch 339 Chain 0 Acc: 64.15 BMA: 0.00 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-13  Loss: 51936.45 Corrections: 0.00
+
+Chain 0 Heating up for sampling
+Epoch 340 Chain 0 Acc: 63.38 BMA: 69.90 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-03  Loss: 57582.70 Corrections: 0.00
+
+Epoch 341 Chain 0 Acc: 63.73 BMA: 69.95 Best Acc: 69.08 Best BMA: 70.08 T: 1.00E-03  Loss: 54292.79 Corrections: 0.00
+
+Epoch 342 Chain 0 Acc: 64.24 BMA: 70.10 Best Acc: 69.08 Best BMA: 70.10 T: 1.00E-03  Loss: 39681.96 Corrections: 0.00
+
+Epoch 343 Chain 0 Acc: 64.77 BMA: 70.11 Best Acc: 69.08 Best BMA: 70.11 T: 1.00E-03  Loss: 55429.85 Corrections: 0.00
+
+Epoch 344 Chain 0 Acc: 64.91 BMA: 70.20 Best Acc: 69.08 Best BMA: 70.20 T: 1.00E-03  Loss: 55968.68 Corrections: 0.00
+
+Epoch 345 Chain 0 Acc: 65.54 BMA: 70.24 Best Acc: 69.08 Best BMA: 70.24 T: 1.00E-03  Loss: 48792.57 Corrections: 0.00
+
+Epoch 346 Chain 0 Acc: 64.21 BMA: 70.30 Best Acc: 69.08 Best BMA: 70.30 T: 1.00E-03  Loss: 49702.60 Corrections: 0.00
+
+Epoch 347 Chain 0 Acc: 62.96 BMA: 70.34 Best Acc: 69.08 Best BMA: 70.34 T: 1.00E-03  Loss: 50776.06 Corrections: 0.00
+
+Epoch 348 Chain 0 Acc: 65.40 BMA: 70.47 Best Acc: 69.08 Best BMA: 70.47 T: 1.00E-03  Loss: 59646.81 Corrections: 0.00
+
+Epoch 349 Chain 0 Acc: 66.04 BMA: 70.51 Best Acc: 69.08 Best BMA: 70.51 T: 1.00E-03  Loss: 56573.54 Corrections: 0.00
+
+Epoch 350 Chain 0 Acc: 65.59 BMA: 70.64 Best Acc: 69.08 Best BMA: 70.64 T: 1.00E-03  Loss: 46270.57 Corrections: 0.00
+
+Epoch 351 Chain 0 Acc: 66.18 BMA: 70.63 Best Acc: 69.08 Best BMA: 70.64 T: 1.00E-03  Loss: 51381.62 Corrections: 0.00
+
+Epoch 352 Chain 0 Acc: 62.93 BMA: 70.68 Best Acc: 69.08 Best BMA: 70.68 T: 1.00E-03  Loss: 38953.12 Corrections: 0.00
+
+Epoch 353 Chain 0 Acc: 63.84 BMA: 70.76 Best Acc: 69.08 Best BMA: 70.76 T: 1.00E-03  Loss: 61860.07 Corrections: 0.00
+
+Epoch 354 Chain 0 Acc: 65.98 BMA: 70.74 Best Acc: 69.08 Best BMA: 70.76 T: 1.00E-03  Loss: 53860.59 Corrections: 0.00
+
+Epoch 355 Chain 0 Acc: 66.54 BMA: 70.84 Best Acc: 69.08 Best BMA: 70.84 T: 1.00E-03  Loss: 44525.47 Corrections: 0.00
+
+Epoch 356 Chain 0 Acc: 66.26 BMA: 70.87 Best Acc: 69.08 Best BMA: 70.87 T: 1.00E-03  Loss: 51922.00 Corrections: 0.00
+
+Epoch 357 Chain 0 Acc: 66.54 BMA: 70.91 Best Acc: 69.08 Best BMA: 70.91 T: 1.00E-03  Loss: 44641.13 Corrections: 0.00
+
+Epoch 358 Chain 0 Acc: 67.17 BMA: 70.99 Best Acc: 69.08 Best BMA: 70.99 T: 1.00E-03  Loss: 61085.78 Corrections: 0.00
+
+Epoch 359 Chain 0 Acc: 66.16 BMA: 70.99 Best Acc: 69.08 Best BMA: 70.99 T: 1.00E-03  Loss: 53509.90 Corrections: 0.00
+
+Epoch 360 Chain 0 Acc: 66.95 BMA: 71.05 Best Acc: 69.08 Best BMA: 71.05 T: 1.00E-03  Loss: 59988.98 Corrections: 0.00
+
+Epoch 361 Chain 0 Acc: 67.05 BMA: 71.09 Best Acc: 69.08 Best BMA: 71.09 T: 1.00E-03  Loss: 39022.40 Corrections: 0.00
+
+Epoch 362 Chain 0 Acc: 67.41 BMA: 71.08 Best Acc: 69.08 Best BMA: 71.09 T: 1.00E-03  Loss: 39936.66 Corrections: 0.00
+
+Epoch 363 Chain 0 Acc: 66.03 BMA: 71.26 Best Acc: 69.08 Best BMA: 71.26 T: 1.00E-03  Loss: 46436.05 Corrections: 0.00
+
+Epoch 364 Chain 0 Acc: 67.64 BMA: 71.24 Best Acc: 69.08 Best BMA: 71.26 T: 1.00E-03  Loss: 44625.46 Corrections: 0.00
+
+Epoch 365 Chain 0 Acc: 67.91 BMA: 71.31 Best Acc: 69.08 Best BMA: 71.31 T: 1.00E-03  Loss: 37676.52 Corrections: 0.00
+
+Epoch 366 Chain 0 Acc: 67.89 BMA: 71.33 Best Acc: 69.08 Best BMA: 71.33 T: 1.00E-03  Loss: 44508.39 Corrections: 0.00
+
+Epoch 367 Chain 0 Acc: 67.87 BMA: 71.27 Best Acc: 69.08 Best BMA: 71.33 T: 1.00E-03  Loss: 42802.71 Corrections: 0.00
+
+Epoch 368 Chain 0 Acc: 68.39 BMA: 71.26 Best Acc: 69.08 Best BMA: 71.33 T: 1.00E-03  Loss: 41361.64 Corrections: 0.00
+
+Epoch 369 Chain 0 Acc: 68.31 BMA: 71.35 Best Acc: 69.08 Best BMA: 71.35 T: 1.00E-03  Loss: 40942.70 Corrections: 0.00
+
+Epoch 370 Chain 0 Acc: 68.45 BMA: 71.33 Best Acc: 69.08 Best BMA: 71.35 T: 1.00E-03  Loss: 26781.94 Corrections: 0.00
+
+Epoch 371 Chain 0 Acc: 68.19 BMA: 71.36 Best Acc: 69.08 Best BMA: 71.36 T: 1.00E-03  Loss: 49178.20 Corrections: 0.00
+
+Epoch 372 Chain 0 Acc: 68.79 BMA: 71.33 Best Acc: 69.08 Best BMA: 71.36 T: 1.00E-03  Loss: 27892.24 Corrections: 0.00
+
+Epoch 373 Chain 0 Acc: 69.08 BMA: 71.31 Best Acc: 69.08 Best BMA: 71.36 T: 1.00E-03  Loss: 38520.07 Corrections: 0.00
+
+Epoch 374 Chain 0 Acc: 69.29 BMA: 71.38 Best Acc: 69.29 Best BMA: 71.38 T: 1.00E-03  Loss: 49663.02 Corrections: 0.00
+
+Epoch 375 Chain 0 Acc: 69.56 BMA: 71.40 Best Acc: 69.56 Best BMA: 71.40 T: 1.00E-03  Loss: 37194.16 Corrections: 0.00
+
+Epoch 376 Chain 0 Acc: 69.37 BMA: 71.43 Best Acc: 69.56 Best BMA: 71.43 T: 1.00E-03  Loss: 35957.96 Corrections: 0.00
+
+Epoch 377 Chain 0 Acc: 69.30 BMA: 71.43 Best Acc: 69.56 Best BMA: 71.43 T: 1.00E-03  Loss: 46203.07 Corrections: 0.00
+
+Epoch 378 Chain 0 Acc: 69.34 BMA: 71.44 Best Acc: 69.56 Best BMA: 71.44 T: 1.00E-03  Loss: 51395.65 Corrections: 0.00
+
+Epoch 379 Chain 0 Acc: 69.15 BMA: 71.45 Best Acc: 69.56 Best BMA: 71.45 T: 1.00E-03  Loss: 44407.71 Corrections: 0.00
+
+Epoch 380 Chain 0 Acc: 69.25 BMA: 71.49 Best Acc: 69.56 Best BMA: 71.49 T: 1.00E-03  Loss: 49831.86 Corrections: 0.00
+
+Epoch 381 Chain 0 Acc: 69.33 BMA: 71.44 Best Acc: 69.56 Best BMA: 71.49 T: 1.00E-03  Loss: 38377.16 Corrections: 0.00
+
+Epoch 382 Chain 0 Acc: 69.59 BMA: 71.43 Best Acc: 69.59 Best BMA: 71.49 T: 1.00E-03  Loss: 42323.58 Corrections: 0.00
+
+Epoch 383 Chain 0 Acc: 69.59 BMA: 71.44 Best Acc: 69.59 Best BMA: 71.49 T: 1.00E-03  Loss: 41688.26 Corrections: 0.00
+
+Epoch 384 Chain 0 Acc: 69.92 BMA: 71.46 Best Acc: 69.92 Best BMA: 71.49 T: 1.00E-03  Loss: 36009.61 Corrections: 0.00
+
+Epoch 385 Chain 0 Acc: 70.14 BMA: 71.47 Best Acc: 70.14 Best BMA: 71.49 T: 1.00E-03  Loss: 31428.07 Corrections: 0.00
+
+Epoch 386 Chain 0 Acc: 70.04 BMA: 71.45 Best Acc: 70.14 Best BMA: 71.49 T: 1.00E-03  Loss: 46376.70 Corrections: 0.00
+
+Epoch 387 Chain 0 Acc: 69.95 BMA: 71.53 Best Acc: 70.14 Best BMA: 71.53 T: 1.00E-03  Loss: 34889.32 Corrections: 0.00
+
+Epoch 388 Chain 0 Acc: 70.10 BMA: 71.55 Best Acc: 70.14 Best BMA: 71.55 T: 1.00E-03  Loss: 45836.74 Corrections: 0.00
+
+Epoch 389 Chain 0 Acc: 70.04 BMA: 71.54 Best Acc: 70.14 Best BMA: 71.55 T: 1.00E-03  Loss: 33669.49 Corrections: 0.00
+
+Epoch 390 Chain 0 Acc: 70.00 BMA: 71.61 Best Acc: 70.14 Best BMA: 71.61 T: 1.00E-03  Loss: 36151.99 Corrections: 0.00
+
+Epoch 391 Chain 0 Acc: 69.95 BMA: 71.64 Best Acc: 70.14 Best BMA: 71.64 T: 1.00E-03  Loss: 29575.31 Corrections: 0.00
+
+Epoch 392 Chain 0 Acc: 70.07 BMA: 71.73 Best Acc: 70.14 Best BMA: 71.73 T: 1.00E-03  Loss: 26759.84 Corrections: 0.00
+
+Epoch 393 Chain 0 Acc: 70.29 BMA: 71.78 Best Acc: 70.29 Best BMA: 71.78 T: 1.00E-03  Loss: 36460.52 Corrections: 0.00
+
+Epoch 394 Chain 0 Acc: 70.22 BMA: 71.78 Best Acc: 70.29 Best BMA: 71.78 T: 1.00E-03  Loss: 27427.99 Corrections: 0.00
+
+Epoch 395 Chain 0 Acc: 70.27 BMA: 71.75 Best Acc: 70.29 Best BMA: 71.78 T: 1.00E-03  Loss: 38482.29 Corrections: 0.00
+
+Epoch 396 Chain 0 Acc: 70.01 BMA: 71.77 Best Acc: 70.29 Best BMA: 71.78 T: 1.00E-03  Loss: 34093.31 Corrections: 0.00
+
+Epoch 397 Chain 0 Acc: 70.12 BMA: 71.78 Best Acc: 70.29 Best BMA: 71.78 T: 1.00E-03  Loss: 31275.69 Corrections: 0.00
+
+Epoch 398 Chain 0 Acc: 70.21 BMA: 71.82 Best Acc: 70.29 Best BMA: 71.82 T: 1.00E-03  Loss: 36091.27 Corrections: 0.00
+
+Epoch 399 Chain 0 Acc: 70.08 BMA: 71.86 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-03  Loss: 35672.11 Corrections: 0.00
+
+Chain 0 Cooling down for optimization
+Epoch 400 Chain 0 Acc: 41.40 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 95406.45 Corrections: 0.00
+
+Epoch 401 Chain 0 Acc: 46.69 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 90431.04 Corrections: 0.00
+
+Epoch 402 Chain 0 Acc: 47.50 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 71065.38 Corrections: 0.00
+
+Epoch 403 Chain 0 Acc: 43.62 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 108614.18 Corrections: 0.00
+
+Epoch 404 Chain 0 Acc: 46.16 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 86059.75 Corrections: 0.00
+
+Epoch 405 Chain 0 Acc: 51.99 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 84617.68 Corrections: 0.00
+
+Epoch 406 Chain 0 Acc: 42.77 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 66108.80 Corrections: 0.00
+
+Epoch 407 Chain 0 Acc: 49.57 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 71102.99 Corrections: 0.00
+
+Epoch 408 Chain 0 Acc: 46.89 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 73084.27 Corrections: 0.00
+
+Epoch 409 Chain 0 Acc: 52.51 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 70419.57 Corrections: 0.00
+
+Epoch 410 Chain 0 Acc: 53.17 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 95988.27 Corrections: 0.00
+
+Epoch 411 Chain 0 Acc: 50.06 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 75221.62 Corrections: 0.00
+
+Epoch 412 Chain 0 Acc: 47.79 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 69668.88 Corrections: 0.00
+
+Epoch 413 Chain 0 Acc: 50.81 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 74954.16 Corrections: 0.00
+
+Epoch 414 Chain 0 Acc: 51.16 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 69956.49 Corrections: 0.00
+
+Epoch 415 Chain 0 Acc: 50.96 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 87542.66 Corrections: 0.00
+
+Epoch 416 Chain 0 Acc: 54.32 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 58265.73 Corrections: 0.00
+
+Epoch 417 Chain 0 Acc: 51.34 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 76402.09 Corrections: 0.00
+
+Epoch 418 Chain 0 Acc: 51.80 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 81649.87 Corrections: 0.00
+
+Epoch 419 Chain 0 Acc: 51.49 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 71915.27 Corrections: 0.00
+
+Epoch 420 Chain 0 Acc: 49.29 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 70212.74 Corrections: 0.00
+
+Epoch 421 Chain 0 Acc: 50.38 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 86256.45 Corrections: 0.00
+
+Epoch 422 Chain 0 Acc: 50.70 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 80436.01 Corrections: 0.00
+
+Epoch 423 Chain 0 Acc: 46.60 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 96722.82 Corrections: 0.00
+
+Epoch 424 Chain 0 Acc: 51.11 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 73365.73 Corrections: 0.00
+
+Epoch 425 Chain 0 Acc: 49.75 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 87453.83 Corrections: 0.00
+
+Epoch 426 Chain 0 Acc: 50.14 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 85044.62 Corrections: 0.00
+
+Epoch 427 Chain 0 Acc: 53.34 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 77173.55 Corrections: 0.00
+
+Epoch 428 Chain 0 Acc: 45.46 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 77200.54 Corrections: 0.00
+
+Epoch 429 Chain 0 Acc: 50.98 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 67859.66 Corrections: 0.00
+
+Epoch 430 Chain 0 Acc: 54.77 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 77727.75 Corrections: 0.00
+
+Epoch 431 Chain 0 Acc: 50.02 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 58311.61 Corrections: 0.00
+
+Epoch 432 Chain 0 Acc: 52.87 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 94395.79 Corrections: 0.00
+
+Epoch 433 Chain 0 Acc: 45.78 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 76805.55 Corrections: 0.00
+
+Epoch 434 Chain 0 Acc: 55.09 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 91319.09 Corrections: 0.00
+
+Epoch 435 Chain 0 Acc: 46.27 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 80965.34 Corrections: 0.00
+
+Epoch 436 Chain 0 Acc: 51.48 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 83519.14 Corrections: 0.00
+
+Epoch 437 Chain 0 Acc: 52.74 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 83456.96 Corrections: 0.00
+
+Epoch 438 Chain 0 Acc: 49.90 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 69653.69 Corrections: 0.00
+
+Epoch 439 Chain 0 Acc: 54.10 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 80935.17 Corrections: 0.00
+
+Epoch 440 Chain 0 Acc: 53.38 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 80031.24 Corrections: 0.00
+
+Epoch 441 Chain 0 Acc: 56.46 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 75552.20 Corrections: 0.00
+
+Epoch 442 Chain 0 Acc: 46.78 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 73596.52 Corrections: 0.00
+
+Epoch 443 Chain 0 Acc: 54.60 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 66052.56 Corrections: 0.00
+
+Epoch 444 Chain 0 Acc: 52.97 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 76383.38 Corrections: 0.00
+
+Epoch 445 Chain 0 Acc: 51.94 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 79592.93 Corrections: 0.00
+
+Epoch 446 Chain 0 Acc: 52.07 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 82809.52 Corrections: 0.00
+
+Epoch 447 Chain 0 Acc: 54.42 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 68053.84 Corrections: 0.00
+
+Epoch 448 Chain 0 Acc: 51.02 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 83740.05 Corrections: 0.00
+
+Epoch 449 Chain 0 Acc: 51.51 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 73200.77 Corrections: 0.00
+
+Epoch 450 Chain 0 Acc: 54.26 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 76622.09 Corrections: 0.00
+
+Epoch 451 Chain 0 Acc: 53.65 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 72698.59 Corrections: 0.00
+
+Epoch 452 Chain 0 Acc: 53.25 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 78654.76 Corrections: 0.00
+
+Epoch 453 Chain 0 Acc: 52.98 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 94785.72 Corrections: 0.00
+
+Epoch 454 Chain 0 Acc: 56.81 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 66142.32 Corrections: 0.00
+
+Epoch 455 Chain 0 Acc: 50.49 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 79019.74 Corrections: 0.00
+
+Epoch 456 Chain 0 Acc: 55.42 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 62141.61 Corrections: 0.00
+
+Epoch 457 Chain 0 Acc: 52.96 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 81783.93 Corrections: 0.00
+
+Epoch 458 Chain 0 Acc: 52.72 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 74158.55 Corrections: 0.00
+
+Epoch 459 Chain 0 Acc: 53.92 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 68105.84 Corrections: 0.00
+
+Epoch 460 Chain 0 Acc: 55.02 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 85183.22 Corrections: 0.00
+
+Epoch 461 Chain 0 Acc: 49.20 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 72290.44 Corrections: 0.00
+
+Epoch 462 Chain 0 Acc: 52.60 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 62354.53 Corrections: 0.00
+
+Epoch 463 Chain 0 Acc: 52.22 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 71010.08 Corrections: 0.00
+
+Epoch 464 Chain 0 Acc: 50.19 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 70312.84 Corrections: 0.00
+
+Epoch 465 Chain 0 Acc: 55.51 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 72360.10 Corrections: 0.00
+
+Epoch 466 Chain 0 Acc: 55.52 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 80032.23 Corrections: 0.00
+
+Epoch 467 Chain 0 Acc: 52.67 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 78285.13 Corrections: 0.00
+
+Epoch 468 Chain 0 Acc: 53.81 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 66121.05 Corrections: 0.00
+
+Epoch 469 Chain 0 Acc: 55.21 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 70625.14 Corrections: 0.00
+
+Epoch 470 Chain 0 Acc: 54.85 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 79305.91 Corrections: 0.00
+
+Epoch 471 Chain 0 Acc: 55.04 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 63579.21 Corrections: 0.00
+
+Epoch 472 Chain 0 Acc: 54.92 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 71295.59 Corrections: 0.00
+
+Epoch 473 Chain 0 Acc: 57.65 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 61573.05 Corrections: 0.00
+
+Epoch 474 Chain 0 Acc: 56.71 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 64666.80 Corrections: 0.00
+
+Epoch 475 Chain 0 Acc: 58.11 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 76035.41 Corrections: 0.00
+
+Epoch 476 Chain 0 Acc: 56.59 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 67971.53 Corrections: 0.00
+
+Epoch 477 Chain 0 Acc: 54.81 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 68214.95 Corrections: 0.00
+
+Epoch 478 Chain 0 Acc: 54.06 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 57390.23 Corrections: 0.00
+
+Epoch 479 Chain 0 Acc: 56.31 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 74165.87 Corrections: 0.00
+
+Epoch 480 Chain 0 Acc: 56.02 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 57090.80 Corrections: 0.00
+
+Epoch 481 Chain 0 Acc: 57.18 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 72619.19 Corrections: 0.00
+
+Epoch 482 Chain 0 Acc: 58.32 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 62672.48 Corrections: 0.00
+
+Epoch 483 Chain 0 Acc: 57.07 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 69637.16 Corrections: 0.00
+
+Epoch 484 Chain 0 Acc: 57.49 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 56035.04 Corrections: 0.00
+
+Epoch 485 Chain 0 Acc: 55.88 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 59412.64 Corrections: 0.00
+
+Epoch 486 Chain 0 Acc: 54.67 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 73745.52 Corrections: 0.00
+
+Epoch 487 Chain 0 Acc: 58.08 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 68980.68 Corrections: 0.00
+
+Epoch 488 Chain 0 Acc: 58.34 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 77156.23 Corrections: 0.00
+
+Epoch 489 Chain 0 Acc: 58.61 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 65209.82 Corrections: 0.00
+
+Epoch 490 Chain 0 Acc: 56.98 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 66509.48 Corrections: 0.00
+
+Epoch 491 Chain 0 Acc: 58.39 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 81323.80 Corrections: 0.00
+
+Epoch 492 Chain 0 Acc: 58.04 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 50938.82 Corrections: 0.00
+
+Epoch 493 Chain 0 Acc: 56.77 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 72620.73 Corrections: 0.00
+
+Epoch 494 Chain 0 Acc: 59.23 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 54246.02 Corrections: 0.00
+
+Epoch 495 Chain 0 Acc: 55.01 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 64880.27 Corrections: 0.00
+
+Epoch 496 Chain 0 Acc: 56.83 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 53562.97 Corrections: 0.00
+
+Epoch 497 Chain 0 Acc: 57.35 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 67263.57 Corrections: 0.00
+
+Epoch 498 Chain 0 Acc: 57.63 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 75071.48 Corrections: 0.00
+
+Epoch 499 Chain 0 Acc: 58.02 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 56535.78 Corrections: 0.00
+
+Epoch 500 Chain 0 Acc: 57.76 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 58375.59 Corrections: 0.00
+
+Epoch 501 Chain 0 Acc: 58.59 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 72966.12 Corrections: 0.00
+
+Epoch 502 Chain 0 Acc: 59.60 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 57224.95 Corrections: 0.00
+
+Epoch 503 Chain 0 Acc: 58.28 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 69576.54 Corrections: 0.00
+
+Epoch 504 Chain 0 Acc: 58.42 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 61068.85 Corrections: 0.00
+
+Epoch 505 Chain 0 Acc: 58.66 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 58917.06 Corrections: 0.00
+
+Epoch 506 Chain 0 Acc: 56.35 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 62710.15 Corrections: 0.00
+
+Epoch 507 Chain 0 Acc: 59.11 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 53532.70 Corrections: 0.00
+
+Epoch 508 Chain 0 Acc: 58.96 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 60846.72 Corrections: 0.00
+
+Epoch 509 Chain 0 Acc: 59.09 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 56373.29 Corrections: 0.00
+
+Epoch 510 Chain 0 Acc: 58.31 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 49882.66 Corrections: 0.00
+
+Epoch 511 Chain 0 Acc: 60.02 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 69555.88 Corrections: 0.00
+
+Epoch 512 Chain 0 Acc: 61.55 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 55310.70 Corrections: 0.00
+
+Epoch 513 Chain 0 Acc: 61.65 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 69814.86 Corrections: 0.00
+
+Epoch 514 Chain 0 Acc: 58.65 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 44830.69 Corrections: 0.00
+
+Epoch 515 Chain 0 Acc: 60.26 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 60839.31 Corrections: 0.00
+
+Epoch 516 Chain 0 Acc: 59.46 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 57785.83 Corrections: 0.00
+
+Epoch 517 Chain 0 Acc: 62.96 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 70587.36 Corrections: 0.00
+
+Epoch 518 Chain 0 Acc: 60.27 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 76133.73 Corrections: 0.00
+
+Epoch 519 Chain 0 Acc: 60.92 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 59479.95 Corrections: 0.00
+
+Epoch 520 Chain 0 Acc: 58.40 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 63717.89 Corrections: 0.00
+
+Epoch 521 Chain 0 Acc: 60.69 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 49832.58 Corrections: 0.00
+
+Epoch 522 Chain 0 Acc: 61.24 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 57545.16 Corrections: 0.00
+
+Epoch 523 Chain 0 Acc: 58.41 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 63580.12 Corrections: 0.00
+
+Epoch 524 Chain 0 Acc: 60.27 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 59084.55 Corrections: 0.00
+
+Epoch 525 Chain 0 Acc: 60.59 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 80057.72 Corrections: 0.00
+
+Epoch 526 Chain 0 Acc: 62.21 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 52899.72 Corrections: 0.00
+
+Epoch 527 Chain 0 Acc: 61.91 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 64237.93 Corrections: 0.00
+
+Epoch 528 Chain 0 Acc: 62.04 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 65575.61 Corrections: 0.00
+
+Epoch 529 Chain 0 Acc: 61.27 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 54838.76 Corrections: 0.00
+
+Epoch 530 Chain 0 Acc: 63.10 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 55296.03 Corrections: 0.00
+
+Epoch 531 Chain 0 Acc: 63.69 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 53947.76 Corrections: 0.00
+
+Epoch 532 Chain 0 Acc: 60.11 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 47334.39 Corrections: 0.00
+
+Epoch 533 Chain 0 Acc: 62.23 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 50265.50 Corrections: 0.00
+
+Epoch 534 Chain 0 Acc: 63.34 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 60904.13 Corrections: 0.00
+
+Epoch 535 Chain 0 Acc: 62.56 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 44803.02 Corrections: 0.00
+
+Epoch 536 Chain 0 Acc: 63.62 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 56090.98 Corrections: 0.00
+
+Epoch 537 Chain 0 Acc: 64.90 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 41668.43 Corrections: 0.00
+
+Epoch 538 Chain 0 Acc: 63.73 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 43808.33 Corrections: 0.00
+
+Epoch 539 Chain 0 Acc: 64.24 BMA: 0.00 Best Acc: 70.29 Best BMA: 71.86 T: 1.00E-13  Loss: 50349.48 Corrections: 0.00
+
+Chain 0 Heating up for sampling
+Epoch 540 Chain 0 Acc: 63.41 BMA: 71.89 Best Acc: 70.29 Best BMA: 71.89 T: 1.00E-03  Loss: 59319.68 Corrections: 0.00
+
+Epoch 541 Chain 0 Acc: 65.50 BMA: 71.97 Best Acc: 70.29 Best BMA: 71.97 T: 1.00E-03  Loss: 51011.57 Corrections: 0.00
+
+Epoch 542 Chain 0 Acc: 64.37 BMA: 71.98 Best Acc: 70.29 Best BMA: 71.98 T: 1.00E-03  Loss: 50408.52 Corrections: 0.00
+
+Epoch 543 Chain 0 Acc: 64.21 BMA: 71.99 Best Acc: 70.29 Best BMA: 71.99 T: 1.00E-03  Loss: 35653.63 Corrections: 0.00
+
+Epoch 544 Chain 0 Acc: 64.03 BMA: 72.00 Best Acc: 70.29 Best BMA: 72.00 T: 1.00E-03  Loss: 49865.48 Corrections: 0.00
+
+Epoch 545 Chain 0 Acc: 64.47 BMA: 72.05 Best Acc: 70.29 Best BMA: 72.05 T: 1.00E-03  Loss: 57829.75 Corrections: 0.00
+
+Epoch 546 Chain 0 Acc: 65.80 BMA: 72.10 Best Acc: 70.29 Best BMA: 72.10 T: 1.00E-03  Loss: 48787.60 Corrections: 0.00
+
+Epoch 547 Chain 0 Acc: 64.64 BMA: 72.09 Best Acc: 70.29 Best BMA: 72.10 T: 1.00E-03  Loss: 48459.50 Corrections: 0.00
+
+Epoch 548 Chain 0 Acc: 64.50 BMA: 72.14 Best Acc: 70.29 Best BMA: 72.14 T: 1.00E-03  Loss: 42647.91 Corrections: 0.00
+
+Epoch 549 Chain 0 Acc: 65.67 BMA: 72.16 Best Acc: 70.29 Best BMA: 72.16 T: 1.00E-03  Loss: 48531.23 Corrections: 0.00
+
+Epoch 550 Chain 0 Acc: 66.29 BMA: 72.19 Best Acc: 70.29 Best BMA: 72.19 T: 1.00E-03  Loss: 49827.66 Corrections: 0.00
+
+Epoch 551 Chain 0 Acc: 65.93 BMA: 72.23 Best Acc: 70.29 Best BMA: 72.23 T: 1.00E-03  Loss: 53750.93 Corrections: 0.00
+
+Epoch 552 Chain 0 Acc: 66.12 BMA: 72.24 Best Acc: 70.29 Best BMA: 72.24 T: 1.00E-03  Loss: 55236.48 Corrections: 0.00
+
+Epoch 553 Chain 0 Acc: 66.24 BMA: 72.25 Best Acc: 70.29 Best BMA: 72.25 T: 1.00E-03  Loss: 44737.89 Corrections: 0.00
+
+Epoch 554 Chain 0 Acc: 66.10 BMA: 72.26 Best Acc: 70.29 Best BMA: 72.26 T: 1.00E-03  Loss: 53287.08 Corrections: 0.00
+
+Epoch 555 Chain 0 Acc: 67.03 BMA: 72.28 Best Acc: 70.29 Best BMA: 72.28 T: 1.00E-03  Loss: 54282.01 Corrections: 0.00
+
+Epoch 556 Chain 0 Acc: 67.00 BMA: 72.23 Best Acc: 70.29 Best BMA: 72.28 T: 1.00E-03  Loss: 55394.62 Corrections: 0.00
+
+Epoch 557 Chain 0 Acc: 67.28 BMA: 72.28 Best Acc: 70.29 Best BMA: 72.28 T: 1.00E-03  Loss: 46363.37 Corrections: 0.00
+
+Epoch 558 Chain 0 Acc: 66.85 BMA: 72.27 Best Acc: 70.29 Best BMA: 72.28 T: 1.00E-03  Loss: 42160.33 Corrections: 0.00
+
+Epoch 559 Chain 0 Acc: 67.19 BMA: 72.33 Best Acc: 70.29 Best BMA: 72.33 T: 1.00E-03  Loss: 46469.77 Corrections: 0.00
+
+Epoch 560 Chain 0 Acc: 67.12 BMA: 72.38 Best Acc: 70.29 Best BMA: 72.38 T: 1.00E-03  Loss: 49143.74 Corrections: 0.00
+
+Epoch 561 Chain 0 Acc: 67.89 BMA: 72.39 Best Acc: 70.29 Best BMA: 72.39 T: 1.00E-03  Loss: 42382.44 Corrections: 0.00
+
+Epoch 562 Chain 0 Acc: 68.38 BMA: 72.44 Best Acc: 70.29 Best BMA: 72.44 T: 1.00E-03  Loss: 38377.56 Corrections: 0.00
+
+Epoch 563 Chain 0 Acc: 68.23 BMA: 72.51 Best Acc: 70.29 Best BMA: 72.51 T: 1.00E-03  Loss: 45636.69 Corrections: 0.00
+
+Epoch 564 Chain 0 Acc: 68.05 BMA: 72.54 Best Acc: 70.29 Best BMA: 72.54 T: 1.00E-03  Loss: 32408.22 Corrections: 0.00
+
+Epoch 565 Chain 0 Acc: 68.42 BMA: 72.56 Best Acc: 70.29 Best BMA: 72.56 T: 1.00E-03  Loss: 45713.54 Corrections: 0.00
+
+Epoch 566 Chain 0 Acc: 68.44 BMA: 72.57 Best Acc: 70.29 Best BMA: 72.57 T: 1.00E-03  Loss: 31354.31 Corrections: 0.00
+
+Epoch 567 Chain 0 Acc: 68.73 BMA: 72.56 Best Acc: 70.29 Best BMA: 72.57 T: 1.00E-03  Loss: 33946.00 Corrections: 0.00
+
+Epoch 568 Chain 0 Acc: 69.43 BMA: 72.54 Best Acc: 70.29 Best BMA: 72.57 T: 1.00E-03  Loss: 37513.54 Corrections: 0.00
+
+Epoch 569 Chain 0 Acc: 69.17 BMA: 72.58 Best Acc: 70.29 Best BMA: 72.58 T: 1.00E-03  Loss: 49599.68 Corrections: 0.00
+
+Epoch 570 Chain 0 Acc: 69.04 BMA: 72.64 Best Acc: 70.29 Best BMA: 72.64 T: 1.00E-03  Loss: 48559.62 Corrections: 0.00
+
+Epoch 571 Chain 0 Acc: 69.46 BMA: 72.71 Best Acc: 70.29 Best BMA: 72.71 T: 1.00E-03  Loss: 41376.67 Corrections: 0.00
+
+Epoch 572 Chain 0 Acc: 69.53 BMA: 72.69 Best Acc: 70.29 Best BMA: 72.71 T: 1.00E-03  Loss: 43066.99 Corrections: 0.00
+
+Epoch 573 Chain 0 Acc: 69.03 BMA: 72.74 Best Acc: 70.29 Best BMA: 72.74 T: 1.00E-03  Loss: 48116.06 Corrections: 0.00
+
+Epoch 574 Chain 0 Acc: 69.17 BMA: 72.78 Best Acc: 70.29 Best BMA: 72.78 T: 1.00E-03  Loss: 26909.23 Corrections: 0.00
+
+Epoch 575 Chain 0 Acc: 69.36 BMA: 72.78 Best Acc: 70.29 Best BMA: 72.78 T: 1.00E-03  Loss: 35162.78 Corrections: 0.00
+
+Epoch 576 Chain 0 Acc: 69.93 BMA: 72.83 Best Acc: 70.29 Best BMA: 72.83 T: 1.00E-03  Loss: 33991.34 Corrections: 0.00
+
+Epoch 577 Chain 0 Acc: 69.73 BMA: 72.87 Best Acc: 70.29 Best BMA: 72.87 T: 1.00E-03  Loss: 24012.75 Corrections: 0.00
+
+Epoch 578 Chain 0 Acc: 69.71 BMA: 72.88 Best Acc: 70.29 Best BMA: 72.88 T: 1.00E-03  Loss: 39083.07 Corrections: 0.00
+
+Epoch 579 Chain 0 Acc: 70.46 BMA: 72.92 Best Acc: 70.46 Best BMA: 72.92 T: 1.00E-03  Loss: 38503.18 Corrections: 0.00
+
+Epoch 580 Chain 0 Acc: 70.36 BMA: 72.93 Best Acc: 70.46 Best BMA: 72.93 T: 1.00E-03  Loss: 40023.96 Corrections: 0.00
+
+Epoch 581 Chain 0 Acc: 70.56 BMA: 72.93 Best Acc: 70.56 Best BMA: 72.93 T: 1.00E-03  Loss: 29790.06 Corrections: 0.00
+
+Epoch 582 Chain 0 Acc: 70.60 BMA: 72.97 Best Acc: 70.60 Best BMA: 72.97 T: 1.00E-03  Loss: 33484.73 Corrections: 0.00
+
+Epoch 583 Chain 0 Acc: 70.42 BMA: 73.00 Best Acc: 70.60 Best BMA: 73.00 T: 1.00E-03  Loss: 47720.96 Corrections: 0.00
+
+Epoch 584 Chain 0 Acc: 70.46 BMA: 73.06 Best Acc: 70.60 Best BMA: 73.06 T: 1.00E-03  Loss: 48423.30 Corrections: 0.00
+
+Epoch 585 Chain 0 Acc: 70.49 BMA: 73.11 Best Acc: 70.60 Best BMA: 73.11 T: 1.00E-03  Loss: 40771.55 Corrections: 0.00
+
+Epoch 586 Chain 0 Acc: 70.74 BMA: 73.12 Best Acc: 70.74 Best BMA: 73.12 T: 1.00E-03  Loss: 47242.27 Corrections: 0.00
+
+Epoch 587 Chain 0 Acc: 70.57 BMA: 73.13 Best Acc: 70.74 Best BMA: 73.13 T: 1.00E-03  Loss: 48274.82 Corrections: 0.00
+
+Epoch 588 Chain 0 Acc: 70.82 BMA: 73.16 Best Acc: 70.82 Best BMA: 73.16 T: 1.00E-03  Loss: 34643.72 Corrections: 0.00
+
+Epoch 589 Chain 0 Acc: 70.79 BMA: 73.19 Best Acc: 70.82 Best BMA: 73.19 T: 1.00E-03  Loss: 33308.11 Corrections: 0.00
+
+Epoch 590 Chain 0 Acc: 70.91 BMA: 73.17 Best Acc: 70.91 Best BMA: 73.19 T: 1.00E-03  Loss: 30466.36 Corrections: 0.00
+
+Epoch 591 Chain 0 Acc: 71.11 BMA: 73.22 Best Acc: 71.11 Best BMA: 73.22 T: 1.00E-03  Loss: 37564.21 Corrections: 0.00
+
+Epoch 592 Chain 0 Acc: 71.00 BMA: 73.21 Best Acc: 71.11 Best BMA: 73.22 T: 1.00E-03  Loss: 36734.39 Corrections: 0.00
+
+Epoch 593 Chain 0 Acc: 71.15 BMA: 73.21 Best Acc: 71.15 Best BMA: 73.22 T: 1.00E-03  Loss: 29218.08 Corrections: 0.00
+
+Epoch 594 Chain 0 Acc: 70.90 BMA: 73.19 Best Acc: 71.15 Best BMA: 73.22 T: 1.00E-03  Loss: 45696.20 Corrections: 0.00
+
+Epoch 595 Chain 0 Acc: 70.79 BMA: 73.21 Best Acc: 71.15 Best BMA: 73.22 T: 1.00E-03  Loss: 42793.48 Corrections: 0.00
+
+Epoch 596 Chain 0 Acc: 70.97 BMA: 73.22 Best Acc: 71.15 Best BMA: 73.22 T: 1.00E-03  Loss: 50103.54 Corrections: 0.00
+
+Epoch 597 Chain 0 Acc: 70.81 BMA: 73.21 Best Acc: 71.15 Best BMA: 73.22 T: 1.00E-03  Loss: 36738.31 Corrections: 0.00
+
+Epoch 598 Chain 0 Acc: 70.79 BMA: 73.27 Best Acc: 71.15 Best BMA: 73.27 T: 1.00E-03  Loss: 34164.09 Corrections: 0.00
+
+Epoch 599 Chain 0 Acc: 70.95 BMA: 73.30 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-03  Loss: 41252.85 Corrections: 0.00
+
+Chain 0 Cooling down for optimization
+Epoch 600 Chain 0 Acc: 41.45 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 86402.06 Corrections: 0.00
+
+Epoch 601 Chain 0 Acc: 42.84 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 97452.98 Corrections: 0.00
+
+Epoch 602 Chain 0 Acc: 47.80 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 74139.10 Corrections: 0.00
+
+Epoch 603 Chain 0 Acc: 48.02 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 80095.36 Corrections: 0.00
+
+Epoch 604 Chain 0 Acc: 49.52 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 81464.38 Corrections: 0.00
+
+Epoch 605 Chain 0 Acc: 47.80 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 91248.46 Corrections: 0.00
+
+Epoch 606 Chain 0 Acc: 53.53 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 78605.09 Corrections: 0.00
+
+Epoch 607 Chain 0 Acc: 53.44 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 82289.14 Corrections: 0.00
+
+Epoch 608 Chain 0 Acc: 49.94 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 71090.70 Corrections: 0.00
+
+Epoch 609 Chain 0 Acc: 54.27 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 102846.50 Corrections: 0.00
+
+Epoch 610 Chain 0 Acc: 51.86 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 78097.79 Corrections: 0.00
+
+Epoch 611 Chain 0 Acc: 53.52 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 74409.65 Corrections: 0.00
+
+Epoch 612 Chain 0 Acc: 47.45 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 74099.39 Corrections: 0.00
+
+Epoch 613 Chain 0 Acc: 47.23 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 63330.45 Corrections: 0.00
+
+Epoch 614 Chain 0 Acc: 48.91 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 93900.02 Corrections: 0.00
+
+Epoch 615 Chain 0 Acc: 52.36 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 71636.82 Corrections: 0.00
+
+Epoch 616 Chain 0 Acc: 51.96 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 79763.47 Corrections: 0.00
+
+Epoch 617 Chain 0 Acc: 51.90 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 57949.92 Corrections: 0.00
+
+Epoch 618 Chain 0 Acc: 48.78 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 79182.59 Corrections: 0.00
+
+Epoch 619 Chain 0 Acc: 52.67 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 68165.70 Corrections: 0.00
+
+Epoch 620 Chain 0 Acc: 54.32 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 71745.15 Corrections: 0.00
+
+Epoch 621 Chain 0 Acc: 47.39 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 77458.60 Corrections: 0.00
+
+Epoch 622 Chain 0 Acc: 49.60 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 70532.46 Corrections: 0.00
+
+Epoch 623 Chain 0 Acc: 45.72 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 75338.38 Corrections: 0.00
+
+Epoch 624 Chain 0 Acc: 49.66 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 72248.66 Corrections: 0.00
+
+Epoch 625 Chain 0 Acc: 49.63 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 79153.45 Corrections: 0.00
+
+Epoch 626 Chain 0 Acc: 52.63 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 59180.15 Corrections: 0.00
+
+Epoch 627 Chain 0 Acc: 53.81 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 87693.16 Corrections: 0.00
+
+Epoch 628 Chain 0 Acc: 52.76 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 78862.97 Corrections: 0.00
+
+Epoch 629 Chain 0 Acc: 53.14 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 72670.55 Corrections: 0.00
+
+Epoch 630 Chain 0 Acc: 50.18 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 76909.91 Corrections: 0.00
+
+Epoch 631 Chain 0 Acc: 49.82 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 59407.72 Corrections: 0.00
+
+Epoch 632 Chain 0 Acc: 49.72 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 78016.87 Corrections: 0.00
+
+Epoch 633 Chain 0 Acc: 52.29 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 54867.19 Corrections: 0.00
+
+Epoch 634 Chain 0 Acc: 53.05 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 68715.89 Corrections: 0.00
+
+Epoch 635 Chain 0 Acc: 49.63 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 93844.45 Corrections: 0.00
+
+Epoch 636 Chain 0 Acc: 50.38 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 86556.41 Corrections: 0.00
+
+Epoch 637 Chain 0 Acc: 50.08 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 69822.95 Corrections: 0.00
+
+Epoch 638 Chain 0 Acc: 54.44 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 67724.41 Corrections: 0.00
+
+Epoch 639 Chain 0 Acc: 51.74 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 70473.68 Corrections: 0.00
+
+Epoch 640 Chain 0 Acc: 50.97 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 65139.02 Corrections: 0.00
+
+Epoch 641 Chain 0 Acc: 54.36 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 75514.88 Corrections: 0.00
+
+Epoch 642 Chain 0 Acc: 53.63 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 71011.80 Corrections: 0.00
+
+Epoch 643 Chain 0 Acc: 51.94 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 70500.22 Corrections: 0.00
+
+Epoch 644 Chain 0 Acc: 52.81 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 84836.95 Corrections: 0.00
+
+Epoch 645 Chain 0 Acc: 50.74 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 80095.06 Corrections: 0.00
+
+Epoch 646 Chain 0 Acc: 50.75 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 61217.66 Corrections: 0.00
+
+Epoch 647 Chain 0 Acc: 53.71 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 71605.84 Corrections: 0.00
+
+Epoch 648 Chain 0 Acc: 56.20 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 85867.16 Corrections: 0.00
+
+Epoch 649 Chain 0 Acc: 51.45 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 60553.34 Corrections: 0.00
+
+Epoch 650 Chain 0 Acc: 52.67 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 62419.66 Corrections: 0.00
+
+Epoch 651 Chain 0 Acc: 53.64 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 78107.06 Corrections: 0.00
+
+Epoch 652 Chain 0 Acc: 52.96 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 76883.80 Corrections: 0.00
+
+Epoch 653 Chain 0 Acc: 50.83 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 59355.11 Corrections: 0.00
+
+Epoch 654 Chain 0 Acc: 52.50 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 74282.70 Corrections: 0.00
+
+Epoch 655 Chain 0 Acc: 50.39 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 74234.48 Corrections: 0.00
+
+Epoch 656 Chain 0 Acc: 52.75 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 74119.17 Corrections: 0.00
+
+Epoch 657 Chain 0 Acc: 51.84 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 90266.49 Corrections: 0.00
+
+Epoch 658 Chain 0 Acc: 55.65 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 89460.67 Corrections: 0.00
+
+Epoch 659 Chain 0 Acc: 51.16 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 75589.12 Corrections: 0.00
+
+Epoch 660 Chain 0 Acc: 51.94 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 72534.84 Corrections: 0.00
+
+Epoch 661 Chain 0 Acc: 54.32 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 65418.16 Corrections: 0.00
+
+Epoch 662 Chain 0 Acc: 55.18 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 71173.43 Corrections: 0.00
+
+Epoch 663 Chain 0 Acc: 52.40 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 88749.23 Corrections: 0.00
+
+Epoch 664 Chain 0 Acc: 55.71 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 70753.73 Corrections: 0.00
+
+Epoch 665 Chain 0 Acc: 56.47 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 61381.71 Corrections: 0.00
+
+Epoch 666 Chain 0 Acc: 53.03 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 79500.73 Corrections: 0.00
+
+Epoch 667 Chain 0 Acc: 52.91 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 71829.85 Corrections: 0.00
+
+Epoch 668 Chain 0 Acc: 56.60 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 78712.34 Corrections: 0.00
+
+Epoch 669 Chain 0 Acc: 54.69 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 67022.24 Corrections: 0.00
+
+Epoch 670 Chain 0 Acc: 57.51 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 80152.02 Corrections: 0.00
+
+Epoch 671 Chain 0 Acc: 51.96 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 57175.84 Corrections: 0.00
+
+Epoch 672 Chain 0 Acc: 55.19 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 74945.44 Corrections: 0.00
+
+Epoch 673 Chain 0 Acc: 51.99 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 77827.04 Corrections: 0.00
+
+Epoch 674 Chain 0 Acc: 56.46 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 63784.27 Corrections: 0.00
+
+Epoch 675 Chain 0 Acc: 52.92 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 69503.74 Corrections: 0.00
+
+Epoch 676 Chain 0 Acc: 54.73 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 72155.00 Corrections: 0.00
+
+Epoch 677 Chain 0 Acc: 52.84 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 77681.67 Corrections: 0.00
+
+Epoch 678 Chain 0 Acc: 56.45 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 61881.98 Corrections: 0.00
+
+Epoch 679 Chain 0 Acc: 55.80 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 68353.02 Corrections: 0.00
+
+Epoch 680 Chain 0 Acc: 55.62 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 63354.39 Corrections: 0.00
+
+Epoch 681 Chain 0 Acc: 56.39 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 64778.89 Corrections: 0.00
+
+Epoch 682 Chain 0 Acc: 54.68 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 78563.12 Corrections: 0.00
+
+Epoch 683 Chain 0 Acc: 54.76 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 63031.87 Corrections: 0.00
+
+Epoch 684 Chain 0 Acc: 55.54 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 66348.15 Corrections: 0.00
+
+Epoch 685 Chain 0 Acc: 55.98 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 58040.33 Corrections: 0.00
+
+Epoch 686 Chain 0 Acc: 55.69 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 79952.88 Corrections: 0.00
+
+Epoch 687 Chain 0 Acc: 54.65 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 65736.25 Corrections: 0.00
+
+Epoch 688 Chain 0 Acc: 53.15 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 48457.34 Corrections: 0.00
+
+Epoch 689 Chain 0 Acc: 59.30 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 67657.12 Corrections: 0.00
+
+Epoch 690 Chain 0 Acc: 59.54 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 79761.59 Corrections: 0.00
+
+Epoch 691 Chain 0 Acc: 56.35 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 64363.14 Corrections: 0.00
+
+Epoch 692 Chain 0 Acc: 58.28 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 58748.11 Corrections: 0.00
+
+Epoch 693 Chain 0 Acc: 58.11 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 66735.64 Corrections: 0.00
+
+Epoch 694 Chain 0 Acc: 58.22 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 80438.34 Corrections: 0.00
+
+Epoch 695 Chain 0 Acc: 56.36 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 66893.05 Corrections: 0.00
+
+Epoch 696 Chain 0 Acc: 58.21 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 64322.58 Corrections: 0.00
+
+Epoch 697 Chain 0 Acc: 58.89 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 68333.27 Corrections: 0.00
+
+Epoch 698 Chain 0 Acc: 59.69 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 84003.27 Corrections: 0.00
+
+Epoch 699 Chain 0 Acc: 54.75 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 66034.38 Corrections: 0.00
+
+Epoch 700 Chain 0 Acc: 56.01 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 59422.83 Corrections: 0.00
+
+Epoch 701 Chain 0 Acc: 59.51 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 58180.86 Corrections: 0.00
+
+Epoch 702 Chain 0 Acc: 59.59 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 66461.41 Corrections: 0.00
+
+Epoch 703 Chain 0 Acc: 54.72 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 51635.18 Corrections: 0.00
+
+Epoch 704 Chain 0 Acc: 57.63 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 56850.54 Corrections: 0.00
+
+Epoch 705 Chain 0 Acc: 60.06 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 62634.60 Corrections: 0.00
+
+Epoch 706 Chain 0 Acc: 57.42 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 73809.82 Corrections: 0.00
+
+Epoch 707 Chain 0 Acc: 59.00 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 69270.99 Corrections: 0.00
+
+Epoch 708 Chain 0 Acc: 60.27 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 54453.90 Corrections: 0.00
+
+Epoch 709 Chain 0 Acc: 56.70 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 51729.75 Corrections: 0.00
+
+Epoch 710 Chain 0 Acc: 60.43 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 59874.06 Corrections: 0.00
+
+Epoch 711 Chain 0 Acc: 59.81 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 52803.89 Corrections: 0.00
+
+Epoch 712 Chain 0 Acc: 59.35 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 85495.49 Corrections: 0.00
+
+Epoch 713 Chain 0 Acc: 57.65 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 59855.29 Corrections: 0.00
+
+Epoch 714 Chain 0 Acc: 60.58 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 57447.14 Corrections: 0.00
+
+Epoch 715 Chain 0 Acc: 59.98 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 67476.51 Corrections: 0.00
+
+Epoch 716 Chain 0 Acc: 59.35 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 80365.07 Corrections: 0.00
+
+Epoch 717 Chain 0 Acc: 61.37 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 58187.43 Corrections: 0.00
+
+Epoch 718 Chain 0 Acc: 62.64 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 51054.09 Corrections: 0.00
+
+Epoch 719 Chain 0 Acc: 58.69 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 75703.73 Corrections: 0.00
+
+Epoch 720 Chain 0 Acc: 62.59 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 75687.99 Corrections: 0.00
+
+Epoch 721 Chain 0 Acc: 62.25 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 57900.06 Corrections: 0.00
+
+Epoch 722 Chain 0 Acc: 61.72 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 57388.97 Corrections: 0.00
+
+Epoch 723 Chain 0 Acc: 60.46 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 54386.39 Corrections: 0.00
+
+Epoch 724 Chain 0 Acc: 62.12 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 47073.62 Corrections: 0.00
+
+Epoch 725 Chain 0 Acc: 61.99 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 53852.90 Corrections: 0.00
+
+Epoch 726 Chain 0 Acc: 61.64 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 48627.62 Corrections: 0.00
+
+Epoch 727 Chain 0 Acc: 61.26 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 59138.17 Corrections: 0.00
+
+Epoch 728 Chain 0 Acc: 64.17 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 63230.04 Corrections: 0.00
+
+Epoch 729 Chain 0 Acc: 63.07 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 49956.57 Corrections: 0.00
+
+Epoch 730 Chain 0 Acc: 64.66 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 43349.84 Corrections: 0.00
+
+Epoch 731 Chain 0 Acc: 60.80 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 46949.15 Corrections: 0.00
+
+Epoch 732 Chain 0 Acc: 61.52 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 54469.97 Corrections: 0.00
+
+Epoch 733 Chain 0 Acc: 63.92 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 67581.76 Corrections: 0.00
+
+Epoch 734 Chain 0 Acc: 62.41 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 44132.37 Corrections: 0.00
+
+Epoch 735 Chain 0 Acc: 62.12 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 54919.18 Corrections: 0.00
+
+Epoch 736 Chain 0 Acc: 64.51 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 64795.22 Corrections: 0.00
+
+Epoch 737 Chain 0 Acc: 63.40 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 67685.85 Corrections: 0.00
+
+Epoch 738 Chain 0 Acc: 64.19 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 56861.69 Corrections: 0.00
+
+Epoch 739 Chain 0 Acc: 62.03 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-13  Loss: 44800.38 Corrections: 0.00
+
+Chain 0 Heating up for sampling
+Epoch 740 Chain 0 Acc: 64.64 BMA: 73.30 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-03  Loss: 69997.88 Corrections: 0.00
+
+Epoch 741 Chain 0 Acc: 63.56 BMA: 73.30 Best Acc: 71.15 Best BMA: 73.30 T: 1.00E-03  Loss: 50249.32 Corrections: 0.00
+
+Epoch 742 Chain 0 Acc: 64.25 BMA: 73.32 Best Acc: 71.15 Best BMA: 73.32 T: 1.00E-03  Loss: 45380.97 Corrections: 0.00
+
+Epoch 743 Chain 0 Acc: 63.57 BMA: 73.32 Best Acc: 71.15 Best BMA: 73.32 T: 1.00E-03  Loss: 57479.87 Corrections: 0.00
+
+Epoch 744 Chain 0 Acc: 65.93 BMA: 73.35 Best Acc: 71.15 Best BMA: 73.35 T: 1.00E-03  Loss: 38798.83 Corrections: 0.00
+
+Epoch 745 Chain 0 Acc: 65.11 BMA: 73.39 Best Acc: 71.15 Best BMA: 73.39 T: 1.00E-03  Loss: 53363.12 Corrections: 0.00
+
+Epoch 746 Chain 0 Acc: 64.99 BMA: 73.46 Best Acc: 71.15 Best BMA: 73.46 T: 1.00E-03  Loss: 42619.34 Corrections: 0.00
+
+Epoch 747 Chain 0 Acc: 65.83 BMA: 73.47 Best Acc: 71.15 Best BMA: 73.47 T: 1.00E-03  Loss: 56366.05 Corrections: 0.00
+
+Epoch 748 Chain 0 Acc: 65.46 BMA: 73.44 Best Acc: 71.15 Best BMA: 73.47 T: 1.00E-03  Loss: 41983.18 Corrections: 0.00
+
+Epoch 749 Chain 0 Acc: 65.51 BMA: 73.41 Best Acc: 71.15 Best BMA: 73.47 T: 1.00E-03  Loss: 43618.33 Corrections: 0.00
+
+Epoch 750 Chain 0 Acc: 66.24 BMA: 73.45 Best Acc: 71.15 Best BMA: 73.47 T: 1.00E-03  Loss: 55807.24 Corrections: 0.00
+
+Epoch 751 Chain 0 Acc: 65.97 BMA: 73.45 Best Acc: 71.15 Best BMA: 73.47 T: 1.00E-03  Loss: 47245.45 Corrections: 0.00
+
+Epoch 752 Chain 0 Acc: 66.21 BMA: 73.47 Best Acc: 71.15 Best BMA: 73.47 T: 1.00E-03  Loss: 55246.39 Corrections: 0.00
+
+Epoch 753 Chain 0 Acc: 66.02 BMA: 73.43 Best Acc: 71.15 Best BMA: 73.47 T: 1.00E-03  Loss: 47736.34 Corrections: 0.00
+
+Epoch 754 Chain 0 Acc: 67.11 BMA: 73.45 Best Acc: 71.15 Best BMA: 73.47 T: 1.00E-03  Loss: 37002.18 Corrections: 0.00
+
+Epoch 755 Chain 0 Acc: 66.63 BMA: 73.45 Best Acc: 71.15 Best BMA: 73.47 T: 1.00E-03  Loss: 55416.44 Corrections: 0.00
+
+Epoch 756 Chain 0 Acc: 66.67 BMA: 73.47 Best Acc: 71.15 Best BMA: 73.47 T: 1.00E-03  Loss: 46058.41 Corrections: 0.00
+
+Epoch 757 Chain 0 Acc: 67.42 BMA: 73.54 Best Acc: 71.15 Best BMA: 73.54 T: 1.00E-03  Loss: 48047.80 Corrections: 0.00
+
+Epoch 758 Chain 0 Acc: 67.30 BMA: 73.52 Best Acc: 71.15 Best BMA: 73.54 T: 1.00E-03  Loss: 40173.29 Corrections: 0.00
+
+Epoch 759 Chain 0 Acc: 66.96 BMA: 73.51 Best Acc: 71.15 Best BMA: 73.54 T: 1.00E-03  Loss: 35399.53 Corrections: 0.00
+
+Epoch 760 Chain 0 Acc: 66.35 BMA: 73.54 Best Acc: 71.15 Best BMA: 73.54 T: 1.00E-03  Loss: 43144.79 Corrections: 0.00
+
+Epoch 761 Chain 0 Acc: 66.63 BMA: 73.57 Best Acc: 71.15 Best BMA: 73.57 T: 1.00E-03  Loss: 33422.47 Corrections: 0.00
+
+Epoch 762 Chain 0 Acc: 66.70 BMA: 73.56 Best Acc: 71.15 Best BMA: 73.57 T: 1.00E-03  Loss: 47679.87 Corrections: 0.00
+
+Epoch 763 Chain 0 Acc: 68.79 BMA: 73.57 Best Acc: 71.15 Best BMA: 73.57 T: 1.00E-03  Loss: 40916.99 Corrections: 0.00
+
+Epoch 764 Chain 0 Acc: 68.26 BMA: 73.58 Best Acc: 71.15 Best BMA: 73.58 T: 1.00E-03  Loss: 41496.10 Corrections: 0.00
+
+Epoch 765 Chain 0 Acc: 67.60 BMA: 73.59 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-03  Loss: 51762.19 Corrections: 0.00
+
+Epoch 766 Chain 0 Acc: 68.26 BMA: 73.59 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-03  Loss: 44419.18 Corrections: 0.00
+
+Epoch 767 Chain 0 Acc: 68.89 BMA: 73.58 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-03  Loss: 50075.40 Corrections: 0.00
+
+Epoch 768 Chain 0 Acc: 68.62 BMA: 73.59 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-03  Loss: 32951.55 Corrections: 0.00
+
+Epoch 769 Chain 0 Acc: 67.72 BMA: 73.59 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-03  Loss: 40880.26 Corrections: 0.00
+
+Epoch 770 Chain 0 Acc: 68.03 BMA: 73.57 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-03  Loss: 32918.23 Corrections: 0.00
+
+Epoch 771 Chain 0 Acc: 69.40 BMA: 73.57 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-03  Loss: 37588.53 Corrections: 0.00
+
+Epoch 772 Chain 0 Acc: 69.05 BMA: 73.55 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-03  Loss: 39399.49 Corrections: 0.00
+
+Epoch 773 Chain 0 Acc: 69.20 BMA: 73.49 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-03  Loss: 33993.22 Corrections: 0.00
+
+Epoch 774 Chain 0 Acc: 69.05 BMA: 73.52 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-03  Loss: 46704.64 Corrections: 0.00
+
+Epoch 775 Chain 0 Acc: 69.57 BMA: 73.53 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-03  Loss: 41735.91 Corrections: 0.00
+
+Epoch 776 Chain 0 Acc: 69.46 BMA: 73.52 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-03  Loss: 39609.83 Corrections: 0.00
+
+Epoch 777 Chain 0 Acc: 69.94 BMA: 73.49 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-03  Loss: 33096.63 Corrections: 0.00
+
+Epoch 778 Chain 0 Acc: 69.69 BMA: 73.52 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-03  Loss: 49012.64 Corrections: 0.00
+
+Epoch 779 Chain 0 Acc: 69.64 BMA: 73.53 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-03  Loss: 41276.47 Corrections: 0.00
+
+Epoch 780 Chain 0 Acc: 70.13 BMA: 73.52 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-03  Loss: 23778.58 Corrections: 0.00
+
+Epoch 781 Chain 0 Acc: 69.97 BMA: 73.48 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-03  Loss: 28741.02 Corrections: 0.00
+
+Epoch 782 Chain 0 Acc: 70.31 BMA: 73.45 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-03  Loss: 40554.29 Corrections: 0.00
+
+Epoch 783 Chain 0 Acc: 70.18 BMA: 73.48 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-03  Loss: 31831.89 Corrections: 0.00
+
+Epoch 784 Chain 0 Acc: 70.45 BMA: 73.51 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-03  Loss: 43117.19 Corrections: 0.00
+
+Epoch 785 Chain 0 Acc: 70.70 BMA: 73.52 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-03  Loss: 37477.37 Corrections: 0.00
+
+Epoch 786 Chain 0 Acc: 70.36 BMA: 73.55 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-03  Loss: 55728.63 Corrections: 0.00
+
+Epoch 787 Chain 0 Acc: 70.41 BMA: 73.55 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-03  Loss: 40255.95 Corrections: 0.00
+
+Epoch 788 Chain 0 Acc: 70.43 BMA: 73.57 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-03  Loss: 45864.56 Corrections: 0.00
+
+Epoch 789 Chain 0 Acc: 70.39 BMA: 73.56 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-03  Loss: 42823.56 Corrections: 0.00
+
+Epoch 790 Chain 0 Acc: 70.45 BMA: 73.59 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-03  Loss: 23582.61 Corrections: 0.00
+
+Epoch 791 Chain 0 Acc: 70.43 BMA: 73.56 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-03  Loss: 36466.72 Corrections: 0.00
+
+Epoch 792 Chain 0 Acc: 70.45 BMA: 73.57 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-03  Loss: 34179.93 Corrections: 0.00
+
+Epoch 793 Chain 0 Acc: 70.42 BMA: 73.56 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-03  Loss: 41366.14 Corrections: 0.00
+
+Epoch 794 Chain 0 Acc: 70.52 BMA: 73.53 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-03  Loss: 29641.07 Corrections: 0.00
+
+Epoch 795 Chain 0 Acc: 70.55 BMA: 73.54 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-03  Loss: 32204.91 Corrections: 0.00
+
+Epoch 796 Chain 0 Acc: 70.42 BMA: 73.56 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-03  Loss: 32897.30 Corrections: 0.00
+
+Epoch 797 Chain 0 Acc: 70.45 BMA: 73.55 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-03  Loss: 36337.57 Corrections: 0.00
+
+Epoch 798 Chain 0 Acc: 70.31 BMA: 73.59 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-03  Loss: 31324.28 Corrections: 0.00
+
+Epoch 799 Chain 0 Acc: 70.53 BMA: 73.59 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-03  Loss: 31182.01 Corrections: 0.00
+
+Chain 0 Cooling down for optimization
+Epoch 800 Chain 0 Acc: 41.05 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 86138.02 Corrections: 0.00
+
+Epoch 801 Chain 0 Acc: 49.67 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 77756.91 Corrections: 0.00
+
+Epoch 802 Chain 0 Acc: 47.44 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 76820.70 Corrections: 0.00
+
+Epoch 803 Chain 0 Acc: 45.43 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 88599.51 Corrections: 0.00
+
+Epoch 804 Chain 0 Acc: 52.44 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 89069.92 Corrections: 0.00
+
+Epoch 805 Chain 0 Acc: 50.61 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 67715.22 Corrections: 0.00
+
+Epoch 806 Chain 0 Acc: 51.19 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 107524.65 Corrections: 0.00
+
+Epoch 807 Chain 0 Acc: 55.06 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 63997.16 Corrections: 0.00
+
+Epoch 808 Chain 0 Acc: 51.99 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 84791.59 Corrections: 0.00
+
+Epoch 809 Chain 0 Acc: 54.24 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 63544.48 Corrections: 0.00
+
+Epoch 810 Chain 0 Acc: 52.49 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 67992.54 Corrections: 0.00
+
+Epoch 811 Chain 0 Acc: 50.47 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 85782.35 Corrections: 0.00
+
+Epoch 812 Chain 0 Acc: 47.41 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 76085.88 Corrections: 0.00
+
+Epoch 813 Chain 0 Acc: 53.75 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 63708.48 Corrections: 0.00
+
+Epoch 814 Chain 0 Acc: 53.56 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 60087.56 Corrections: 0.00
+
+Epoch 815 Chain 0 Acc: 47.46 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 73998.66 Corrections: 0.00
+
+Epoch 816 Chain 0 Acc: 46.32 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 80191.86 Corrections: 0.00
+
+Epoch 817 Chain 0 Acc: 50.58 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 87877.01 Corrections: 0.00
+
+Epoch 818 Chain 0 Acc: 52.99 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 69490.02 Corrections: 0.00
+
+Epoch 819 Chain 0 Acc: 53.14 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 69079.23 Corrections: 0.00
+
+Epoch 820 Chain 0 Acc: 54.00 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 63678.25 Corrections: 0.00
+
+Epoch 821 Chain 0 Acc: 49.87 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 84671.51 Corrections: 0.00
+
+Epoch 822 Chain 0 Acc: 54.18 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 85990.68 Corrections: 0.00
+
+Epoch 823 Chain 0 Acc: 51.58 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 64982.16 Corrections: 0.00
+
+Epoch 824 Chain 0 Acc: 52.83 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 79774.95 Corrections: 0.00
+
+Epoch 825 Chain 0 Acc: 49.17 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 69032.04 Corrections: 0.00
+
+Epoch 826 Chain 0 Acc: 53.83 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 83092.88 Corrections: 0.00
+
+Epoch 827 Chain 0 Acc: 55.11 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 71182.49 Corrections: 0.00
+
+Epoch 828 Chain 0 Acc: 54.55 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 76214.46 Corrections: 0.00
+
+Epoch 829 Chain 0 Acc: 53.07 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 67382.40 Corrections: 0.00
+
+Epoch 830 Chain 0 Acc: 50.03 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 63650.15 Corrections: 0.00
+
+Epoch 831 Chain 0 Acc: 51.73 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 70358.12 Corrections: 0.00
+
+Epoch 832 Chain 0 Acc: 52.97 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 85943.07 Corrections: 0.00
+
+Epoch 833 Chain 0 Acc: 52.66 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 70292.06 Corrections: 0.00
+
+Epoch 834 Chain 0 Acc: 54.18 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 77311.76 Corrections: 0.00
+
+Epoch 835 Chain 0 Acc: 54.82 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 66914.89 Corrections: 0.00
+
+Epoch 836 Chain 0 Acc: 53.41 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 55136.00 Corrections: 0.00
+
+Epoch 837 Chain 0 Acc: 49.33 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 72465.73 Corrections: 0.00
+
+Epoch 838 Chain 0 Acc: 50.51 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 91691.23 Corrections: 0.00
+
+Epoch 839 Chain 0 Acc: 52.00 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 68274.52 Corrections: 0.00
+
+Epoch 840 Chain 0 Acc: 54.88 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 81421.66 Corrections: 0.00
+
+Epoch 841 Chain 0 Acc: 53.55 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 59351.77 Corrections: 0.00
+
+Epoch 842 Chain 0 Acc: 52.55 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 66050.28 Corrections: 0.00
+
+Epoch 843 Chain 0 Acc: 54.97 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 74074.68 Corrections: 0.00
+
+Epoch 844 Chain 0 Acc: 49.49 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 85923.78 Corrections: 0.00
+
+Epoch 845 Chain 0 Acc: 52.87 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 72358.81 Corrections: 0.00
+
+Epoch 846 Chain 0 Acc: 53.13 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 80889.28 Corrections: 0.00
+
+Epoch 847 Chain 0 Acc: 52.14 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 61133.79 Corrections: 0.00
+
+Epoch 848 Chain 0 Acc: 55.02 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 72070.60 Corrections: 0.00
+
+Epoch 849 Chain 0 Acc: 51.35 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 69143.45 Corrections: 0.00
+
+Epoch 850 Chain 0 Acc: 48.03 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 84912.63 Corrections: 0.00
+
+Epoch 851 Chain 0 Acc: 51.76 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 76601.80 Corrections: 0.00
+
+Epoch 852 Chain 0 Acc: 53.21 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 84366.38 Corrections: 0.00
+
+Epoch 853 Chain 0 Acc: 50.67 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 78723.08 Corrections: 0.00
+
+Epoch 854 Chain 0 Acc: 51.86 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 74799.65 Corrections: 0.00
+
+Epoch 855 Chain 0 Acc: 52.64 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 80972.96 Corrections: 0.00
+
+Epoch 856 Chain 0 Acc: 51.07 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 59765.30 Corrections: 0.00
+
+Epoch 857 Chain 0 Acc: 53.66 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 74905.58 Corrections: 0.00
+
+Epoch 858 Chain 0 Acc: 55.39 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 79708.65 Corrections: 0.00
+
+Epoch 859 Chain 0 Acc: 53.84 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 73385.97 Corrections: 0.00
+
+Epoch 860 Chain 0 Acc: 55.11 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 67681.52 Corrections: 0.00
+
+Epoch 861 Chain 0 Acc: 55.50 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 67575.88 Corrections: 0.00
+
+Epoch 862 Chain 0 Acc: 51.74 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 74486.96 Corrections: 0.00
+
+Epoch 863 Chain 0 Acc: 49.87 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 70510.09 Corrections: 0.00
+
+Epoch 864 Chain 0 Acc: 52.01 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 55860.01 Corrections: 0.00
+
+Epoch 865 Chain 0 Acc: 52.54 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 76960.96 Corrections: 0.00
+
+Epoch 866 Chain 0 Acc: 55.12 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 76181.02 Corrections: 0.00
+
+Epoch 867 Chain 0 Acc: 54.63 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 56106.23 Corrections: 0.00
+
+Epoch 868 Chain 0 Acc: 49.19 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 67416.22 Corrections: 0.00
+
+Epoch 869 Chain 0 Acc: 55.54 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 75589.08 Corrections: 0.00
+
+Epoch 870 Chain 0 Acc: 57.07 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 64686.15 Corrections: 0.00
+
+Epoch 871 Chain 0 Acc: 55.85 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 65152.32 Corrections: 0.00
+
+Epoch 872 Chain 0 Acc: 50.51 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 62389.21 Corrections: 0.00
+
+Epoch 873 Chain 0 Acc: 58.11 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 66552.51 Corrections: 0.00
+
+Epoch 874 Chain 0 Acc: 55.42 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 55678.07 Corrections: 0.00
+
+Epoch 875 Chain 0 Acc: 55.21 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 72401.46 Corrections: 0.00
+
+Epoch 876 Chain 0 Acc: 58.14 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 63363.57 Corrections: 0.00
+
+Epoch 877 Chain 0 Acc: 56.56 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 59802.48 Corrections: 0.00
+
+Epoch 878 Chain 0 Acc: 57.79 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 80822.85 Corrections: 0.00
+
+Epoch 879 Chain 0 Acc: 56.32 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 72445.31 Corrections: 0.00
+
+Epoch 880 Chain 0 Acc: 55.49 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 71025.52 Corrections: 0.00
+
+Epoch 881 Chain 0 Acc: 56.01 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 64051.32 Corrections: 0.00
+
+Epoch 882 Chain 0 Acc: 56.24 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 66619.70 Corrections: 0.00
+
+Epoch 883 Chain 0 Acc: 59.57 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 75799.23 Corrections: 0.00
+
+Epoch 884 Chain 0 Acc: 53.39 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 65315.64 Corrections: 0.00
+
+Epoch 885 Chain 0 Acc: 57.52 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 67861.33 Corrections: 0.00
+
+Epoch 886 Chain 0 Acc: 58.23 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 65229.45 Corrections: 0.00
+
+Epoch 887 Chain 0 Acc: 57.35 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 61239.89 Corrections: 0.00
+
+Epoch 888 Chain 0 Acc: 55.15 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 67085.11 Corrections: 0.00
+
+Epoch 889 Chain 0 Acc: 56.94 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 74879.11 Corrections: 0.00
+
+Epoch 890 Chain 0 Acc: 59.45 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 62710.79 Corrections: 0.00
+
+Epoch 891 Chain 0 Acc: 55.56 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 72540.27 Corrections: 0.00
+
+Epoch 892 Chain 0 Acc: 57.75 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 72594.84 Corrections: 0.00
+
+Epoch 893 Chain 0 Acc: 54.75 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 89229.82 Corrections: 0.00
+
+Epoch 894 Chain 0 Acc: 57.03 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 64779.55 Corrections: 0.00
+
+Epoch 895 Chain 0 Acc: 57.91 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 79399.24 Corrections: 0.00
+
+Epoch 896 Chain 0 Acc: 58.40 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 60259.99 Corrections: 0.00
+
+Epoch 897 Chain 0 Acc: 57.78 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 60691.83 Corrections: 0.00
+
+Epoch 898 Chain 0 Acc: 57.88 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 75343.82 Corrections: 0.00
+
+Epoch 899 Chain 0 Acc: 58.09 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 63566.66 Corrections: 0.00
+
+Epoch 900 Chain 0 Acc: 58.98 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 73037.34 Corrections: 0.00
+
+Epoch 901 Chain 0 Acc: 57.02 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 65687.06 Corrections: 0.00
+
+Epoch 902 Chain 0 Acc: 55.59 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 67103.46 Corrections: 0.00
+
+Epoch 903 Chain 0 Acc: 56.28 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 52243.57 Corrections: 0.00
+
+Epoch 904 Chain 0 Acc: 58.46 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 62040.48 Corrections: 0.00
+
+Epoch 905 Chain 0 Acc: 59.85 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 73705.52 Corrections: 0.00
+
+Epoch 906 Chain 0 Acc: 56.64 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 61499.95 Corrections: 0.00
+
+Epoch 907 Chain 0 Acc: 60.79 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 64882.22 Corrections: 0.00
+
+Epoch 908 Chain 0 Acc: 57.92 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 64633.62 Corrections: 0.00
+
+Epoch 909 Chain 0 Acc: 57.53 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 54543.77 Corrections: 0.00
+
+Epoch 910 Chain 0 Acc: 59.74 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 75433.85 Corrections: 0.00
+
+Epoch 911 Chain 0 Acc: 57.55 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 58052.81 Corrections: 0.00
+
+Epoch 912 Chain 0 Acc: 59.28 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 46681.97 Corrections: 0.00
+
+Epoch 913 Chain 0 Acc: 57.26 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 58048.68 Corrections: 0.00
+
+Epoch 914 Chain 0 Acc: 61.41 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 54291.37 Corrections: 0.00
+
+Epoch 915 Chain 0 Acc: 60.81 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 62286.53 Corrections: 0.00
+
+Epoch 916 Chain 0 Acc: 60.54 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 59866.54 Corrections: 0.00
+
+Epoch 917 Chain 0 Acc: 62.38 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 52286.95 Corrections: 0.00
+
+Epoch 918 Chain 0 Acc: 61.11 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 64412.37 Corrections: 0.00
+
+Epoch 919 Chain 0 Acc: 56.88 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 72313.46 Corrections: 0.00
+
+Epoch 920 Chain 0 Acc: 61.06 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 55203.66 Corrections: 0.00
+
+Epoch 921 Chain 0 Acc: 61.72 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 48615.01 Corrections: 0.00
+
+Epoch 922 Chain 0 Acc: 61.16 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 75892.41 Corrections: 0.00
+
+Epoch 923 Chain 0 Acc: 63.66 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 55012.65 Corrections: 0.00
+
+Epoch 924 Chain 0 Acc: 62.25 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 55601.23 Corrections: 0.00
+
+Epoch 925 Chain 0 Acc: 63.14 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 69983.52 Corrections: 0.00
+
+Epoch 926 Chain 0 Acc: 63.60 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 52020.05 Corrections: 0.00
+
+Epoch 927 Chain 0 Acc: 61.79 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 48558.56 Corrections: 0.00
+
+Epoch 928 Chain 0 Acc: 63.67 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 67741.77 Corrections: 0.00
+
+Epoch 929 Chain 0 Acc: 64.35 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 55321.23 Corrections: 0.00
+
+Epoch 930 Chain 0 Acc: 64.13 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 43364.46 Corrections: 0.00
+
+Epoch 931 Chain 0 Acc: 62.20 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 63342.21 Corrections: 0.00
+
+Epoch 932 Chain 0 Acc: 63.83 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 45847.13 Corrections: 0.00
+
+Epoch 933 Chain 0 Acc: 63.30 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 47597.34 Corrections: 0.00
+
+Epoch 934 Chain 0 Acc: 62.77 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 63060.30 Corrections: 0.00
+
+Epoch 935 Chain 0 Acc: 64.93 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 59599.16 Corrections: 0.00
+
+Epoch 936 Chain 0 Acc: 62.21 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 43870.37 Corrections: 0.00
+
+Epoch 937 Chain 0 Acc: 63.00 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 56619.24 Corrections: 0.00
+
+Epoch 938 Chain 0 Acc: 62.45 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 63979.07 Corrections: 0.00
+
+Epoch 939 Chain 0 Acc: 65.46 BMA: 0.00 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-13  Loss: 65105.31 Corrections: 0.00
+
+Chain 0 Heating up for sampling
+Epoch 940 Chain 0 Acc: 65.70 BMA: 73.57 Best Acc: 71.15 Best BMA: 73.59 T: 1.00E-03  Loss: 43137.07 Corrections: 0.00
+
+Epoch 941 Chain 0 Acc: 64.35 BMA: 73.60 Best Acc: 71.15 Best BMA: 73.60 T: 1.00E-03  Loss: 41625.79 Corrections: 0.00
+
+Epoch 942 Chain 0 Acc: 65.32 BMA: 73.62 Best Acc: 71.15 Best BMA: 73.62 T: 1.00E-03  Loss: 47729.30 Corrections: 0.00
+
+Epoch 943 Chain 0 Acc: 65.86 BMA: 73.67 Best Acc: 71.15 Best BMA: 73.67 T: 1.00E-03  Loss: 42812.41 Corrections: 0.00
+
+Epoch 944 Chain 0 Acc: 64.76 BMA: 73.67 Best Acc: 71.15 Best BMA: 73.67 T: 1.00E-03  Loss: 45493.81 Corrections: 0.00
+
+Epoch 945 Chain 0 Acc: 65.03 BMA: 73.65 Best Acc: 71.15 Best BMA: 73.67 T: 1.00E-03  Loss: 60693.04 Corrections: 0.00
+
+Epoch 946 Chain 0 Acc: 66.84 BMA: 73.66 Best Acc: 71.15 Best BMA: 73.67 T: 1.00E-03  Loss: 40270.18 Corrections: 0.00
+
+Epoch 947 Chain 0 Acc: 64.13 BMA: 73.65 Best Acc: 71.15 Best BMA: 73.67 T: 1.00E-03  Loss: 51684.28 Corrections: 0.00
+
+Epoch 948 Chain 0 Acc: 65.76 BMA: 73.68 Best Acc: 71.15 Best BMA: 73.68 T: 1.00E-03  Loss: 47046.21 Corrections: 0.00
+
+Epoch 949 Chain 0 Acc: 66.49 BMA: 73.66 Best Acc: 71.15 Best BMA: 73.68 T: 1.00E-03  Loss: 45580.13 Corrections: 0.00
+
+Epoch 950 Chain 0 Acc: 66.82 BMA: 73.69 Best Acc: 71.15 Best BMA: 73.69 T: 1.00E-03  Loss: 41460.80 Corrections: 0.00
+
+Epoch 951 Chain 0 Acc: 67.09 BMA: 73.67 Best Acc: 71.15 Best BMA: 73.69 T: 1.00E-03  Loss: 46691.01 Corrections: 0.00
+
+Epoch 952 Chain 0 Acc: 67.06 BMA: 73.73 Best Acc: 71.15 Best BMA: 73.73 T: 1.00E-03  Loss: 63658.94 Corrections: 0.00
+
+Epoch 953 Chain 0 Acc: 66.46 BMA: 73.73 Best Acc: 71.15 Best BMA: 73.73 T: 1.00E-03  Loss: 38571.21 Corrections: 0.00
+
+Epoch 954 Chain 0 Acc: 67.35 BMA: 73.75 Best Acc: 71.15 Best BMA: 73.75 T: 1.00E-03  Loss: 44268.94 Corrections: 0.00
+
+Epoch 955 Chain 0 Acc: 66.35 BMA: 73.73 Best Acc: 71.15 Best BMA: 73.75 T: 1.00E-03  Loss: 47287.51 Corrections: 0.00
+
+Epoch 956 Chain 0 Acc: 66.04 BMA: 73.71 Best Acc: 71.15 Best BMA: 73.75 T: 1.00E-03  Loss: 46541.92 Corrections: 0.00
+
+Epoch 957 Chain 0 Acc: 66.82 BMA: 73.74 Best Acc: 71.15 Best BMA: 73.75 T: 1.00E-03  Loss: 57317.44 Corrections: 0.00
+
+Epoch 958 Chain 0 Acc: 67.77 BMA: 73.78 Best Acc: 71.15 Best BMA: 73.78 T: 1.00E-03  Loss: 50860.02 Corrections: 0.00
+
+Epoch 959 Chain 0 Acc: 67.15 BMA: 73.80 Best Acc: 71.15 Best BMA: 73.80 T: 1.00E-03  Loss: 44678.89 Corrections: 0.00
+
+Epoch 960 Chain 0 Acc: 67.92 BMA: 73.85 Best Acc: 71.15 Best BMA: 73.85 T: 1.00E-03  Loss: 36119.68 Corrections: 0.00
+
+Epoch 961 Chain 0 Acc: 68.47 BMA: 73.86 Best Acc: 71.15 Best BMA: 73.86 T: 1.00E-03  Loss: 45328.22 Corrections: 0.00
+
+Epoch 962 Chain 0 Acc: 68.70 BMA: 73.87 Best Acc: 71.15 Best BMA: 73.87 T: 1.00E-03  Loss: 37114.91 Corrections: 0.00
+
+Epoch 963 Chain 0 Acc: 68.45 BMA: 73.86 Best Acc: 71.15 Best BMA: 73.87 T: 1.00E-03  Loss: 30342.67 Corrections: 0.00
+
+Epoch 964 Chain 0 Acc: 68.31 BMA: 73.87 Best Acc: 71.15 Best BMA: 73.87 T: 1.00E-03  Loss: 33316.20 Corrections: 0.00
+
+Epoch 965 Chain 0 Acc: 68.28 BMA: 73.88 Best Acc: 71.15 Best BMA: 73.88 T: 1.00E-03  Loss: 42981.39 Corrections: 0.00
+
+Epoch 966 Chain 0 Acc: 68.78 BMA: 73.86 Best Acc: 71.15 Best BMA: 73.88 T: 1.00E-03  Loss: 48074.29 Corrections: 0.00
+
+Epoch 967 Chain 0 Acc: 68.48 BMA: 73.86 Best Acc: 71.15 Best BMA: 73.88 T: 1.00E-03  Loss: 53199.73 Corrections: 0.00
+
+Epoch 968 Chain 0 Acc: 68.04 BMA: 73.88 Best Acc: 71.15 Best BMA: 73.88 T: 1.00E-03  Loss: 42482.12 Corrections: 0.00
+
+Epoch 969 Chain 0 Acc: 69.17 BMA: 73.89 Best Acc: 71.15 Best BMA: 73.89 T: 1.00E-03  Loss: 37680.56 Corrections: 0.00
+
+Epoch 970 Chain 0 Acc: 69.57 BMA: 73.90 Best Acc: 71.15 Best BMA: 73.90 T: 1.00E-03  Loss: 46085.84 Corrections: 0.00
+
+Epoch 971 Chain 0 Acc: 69.58 BMA: 73.90 Best Acc: 71.15 Best BMA: 73.90 T: 1.00E-03  Loss: 36986.94 Corrections: 0.00
+
+Epoch 972 Chain 0 Acc: 69.50 BMA: 73.91 Best Acc: 71.15 Best BMA: 73.91 T: 1.00E-03  Loss: 29866.67 Corrections: 0.00
+
+Epoch 973 Chain 0 Acc: 69.39 BMA: 73.89 Best Acc: 71.15 Best BMA: 73.91 T: 1.00E-03  Loss: 43866.98 Corrections: 0.00
+
+Epoch 974 Chain 0 Acc: 69.63 BMA: 73.91 Best Acc: 71.15 Best BMA: 73.91 T: 1.00E-03  Loss: 44377.42 Corrections: 0.00
+
+Epoch 975 Chain 0 Acc: 70.28 BMA: 73.93 Best Acc: 71.15 Best BMA: 73.93 T: 1.00E-03  Loss: 27782.16 Corrections: 0.00
+
+Epoch 976 Chain 0 Acc: 70.33 BMA: 73.93 Best Acc: 71.15 Best BMA: 73.93 T: 1.00E-03  Loss: 33615.22 Corrections: 0.00
+
+Epoch 977 Chain 0 Acc: 70.17 BMA: 73.92 Best Acc: 71.15 Best BMA: 73.93 T: 1.00E-03  Loss: 51636.09 Corrections: 0.00
+
+Epoch 978 Chain 0 Acc: 70.47 BMA: 73.94 Best Acc: 71.15 Best BMA: 73.94 T: 1.00E-03  Loss: 42296.95 Corrections: 0.00
+
+Epoch 979 Chain 0 Acc: 70.10 BMA: 73.94 Best Acc: 71.15 Best BMA: 73.94 T: 1.00E-03  Loss: 39371.24 Corrections: 0.00
+
+Epoch 980 Chain 0 Acc: 70.24 BMA: 73.96 Best Acc: 71.15 Best BMA: 73.96 T: 1.00E-03  Loss: 34472.71 Corrections: 0.00
+
+Epoch 981 Chain 0 Acc: 70.22 BMA: 73.95 Best Acc: 71.15 Best BMA: 73.96 T: 1.00E-03  Loss: 53742.95 Corrections: 0.00
+
+Epoch 982 Chain 0 Acc: 70.25 BMA: 73.95 Best Acc: 71.15 Best BMA: 73.96 T: 1.00E-03  Loss: 38065.88 Corrections: 0.00
+
+Epoch 983 Chain 0 Acc: 70.55 BMA: 73.97 Best Acc: 71.15 Best BMA: 73.97 T: 1.00E-03  Loss: 49404.54 Corrections: 0.00
+
+Epoch 984 Chain 0 Acc: 70.67 BMA: 73.99 Best Acc: 71.15 Best BMA: 73.99 T: 1.00E-03  Loss: 45968.46 Corrections: 0.00
+
+Epoch 985 Chain 0 Acc: 70.79 BMA: 74.03 Best Acc: 71.15 Best BMA: 74.03 T: 1.00E-03  Loss: 42004.71 Corrections: 0.00
+
+Epoch 986 Chain 0 Acc: 70.61 BMA: 74.07 Best Acc: 71.15 Best BMA: 74.07 T: 1.00E-03  Loss: 39990.11 Corrections: 0.00
+
+Epoch 987 Chain 0 Acc: 70.79 BMA: 74.04 Best Acc: 71.15 Best BMA: 74.07 T: 1.00E-03  Loss: 21066.18 Corrections: 0.00
+
+Epoch 988 Chain 0 Acc: 70.78 BMA: 74.04 Best Acc: 71.15 Best BMA: 74.07 T: 1.00E-03  Loss: 35102.70 Corrections: 0.00
+
+Epoch 989 Chain 0 Acc: 70.58 BMA: 74.03 Best Acc: 71.15 Best BMA: 74.07 T: 1.00E-03  Loss: 42723.76 Corrections: 0.00
+
+Epoch 990 Chain 0 Acc: 70.75 BMA: 74.03 Best Acc: 71.15 Best BMA: 74.07 T: 1.00E-03  Loss: 46052.98 Corrections: 0.00
+
+Epoch 991 Chain 0 Acc: 70.84 BMA: 74.01 Best Acc: 71.15 Best BMA: 74.07 T: 1.00E-03  Loss: 34742.22 Corrections: 0.00
+
+Epoch 992 Chain 0 Acc: 71.07 BMA: 74.01 Best Acc: 71.15 Best BMA: 74.07 T: 1.00E-03  Loss: 22237.62 Corrections: 0.00
+
+Epoch 993 Chain 0 Acc: 71.00 BMA: 74.02 Best Acc: 71.15 Best BMA: 74.07 T: 1.00E-03  Loss: 38557.86 Corrections: 0.00
+
+Epoch 994 Chain 0 Acc: 71.21 BMA: 74.00 Best Acc: 71.21 Best BMA: 74.07 T: 1.00E-03  Loss: 31036.89 Corrections: 0.00
+
+Epoch 995 Chain 0 Acc: 70.92 BMA: 74.01 Best Acc: 71.21 Best BMA: 74.07 T: 1.00E-03  Loss: 43272.16 Corrections: 0.00
+
+Epoch 996 Chain 0 Acc: 71.26 BMA: 74.02 Best Acc: 71.26 Best BMA: 74.07 T: 1.00E-03  Loss: 31849.75 Corrections: 0.00
+
+Epoch 997 Chain 0 Acc: 71.05 BMA: 74.05 Best Acc: 71.26 Best BMA: 74.07 T: 1.00E-03  Loss: 37779.02 Corrections: 0.00
+
+Epoch 998 Chain 0 Acc: 71.04 BMA: 74.05 Best Acc: 71.26 Best BMA: 74.07 T: 1.00E-03  Loss: 37997.36 Corrections: 0.00
+
+Epoch 999 Chain 0 Acc: 71.11 BMA: 74.08 Best Acc: 71.26 Best BMA: 74.08 T: 1.00E-03  Loss: 33534.15 Corrections: 0.00
+
