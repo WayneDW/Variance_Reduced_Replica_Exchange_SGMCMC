@@ -16,6 +16,19 @@ Despite the advantages of gradient variance reduction in near-convex problems, a
 </p>
 
 
+Please cite our work if you find it useful in uncertainty estimations
+
+```
+@inproceedings{VR-reSGLD,
+  title={Accelerating Convergence of Replica Exchange Stochastic Gradient MCMC via Variance Reduction},
+  author={Wei Deng and Qi Feng and Georgios P. Karagiannis and Guang Lin and Faming Liang},
+  booktitle={International Conference on Learning Representations},
+  year={2021}
+}
+```
+
+
+
 ## Classification: ResNet20 on CIFAR100 with batch size 256
 
 Momentum stochastic gradient descent (M-SGD) with 500 epochs, batch size 256 and decreasing learning rates
@@ -60,3 +73,14 @@ Apply a temperature scaling of 2 for uncertainty calibration
 $ python uncertainty_test.py -c VR_reSGHMC -T_scale 2
 $ python uncertainty_test.py -c cSGHMC -T_scale 2
 ```
+
+
+
+## References:
+
+1. Max Welling, Yee Whye Teh. [Bayesian Learning via Stochastic Gradient Langevin Dynamics](https://pdfs.semanticscholar.org/aeed/631d6a84100b5e9a021ec1914095c66de415.pdf). ICML'11
+
+2. W. Deng, Q. Feng, L. Gao, F. Liang, G. Lin. [Non-convex Learning via Replica Exchange Stochastic Gradient MCMC](https://arxiv.org/pdf/2008.05367.pdf). ICML'20.
+
+4. Wei_Deng, Qi Feng, Georgios P. Karagiannis, Guang Lin, Faming Liang. [Accelerating Convergence of Replica Exchange Stochastic Gradient MCMC via Variance Reduction](https://openreview.net/forum?id=iOnhIy-a-0n). ICLR'21.
+
