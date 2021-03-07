@@ -10,6 +10,11 @@ Despite the advantages of gradient variance reduction in near-convex problems, a
 * CUDA 
 
 
+<p float="left">
+  <img src="figures/SGLD.gif" width="200" title="SGLD"/>
+  <img src="figures/reSGLD_vs_VR_reSGLD.gif" width="200" alt="Made with Angular" title="Angular" /> 
+</p>
+
 
 ## Classification: ResNet20 on CIFAR100 with batch size 256
 
