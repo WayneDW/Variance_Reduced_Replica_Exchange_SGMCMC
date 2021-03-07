@@ -78,9 +78,9 @@ $ python uncertainty_test.py -c cSGHMC -T_scale 2
 
 ## References:
 
-1. Max Welling, Yee Whye Teh. [Bayesian Learning via Stochastic Gradient Langevin Dynamics](https://pdfs.semanticscholar.org/aeed/631d6a84100b5e9a021ec1914095c66de415.pdf). ICML'11
+1. M. Welling, Y. Teh. [Bayesian Learning via Stochastic Gradient Langevin Dynamics](https://pdfs.semanticscholar.org/aeed/631d6a84100b5e9a021ec1914095c66de415.pdf). ICML'11
 
 2. W. Deng, Q. Feng, L. Gao, F. Liang, G. Lin. [Non-convex Learning via Replica Exchange Stochastic Gradient MCMC](https://arxiv.org/pdf/2008.05367.pdf). ICML'20.
 
-4. Wei_Deng, Qi Feng, Georgios P. Karagiannis, Guang Lin, Faming Liang. [Accelerating Convergence of Replica Exchange Stochastic Gradient MCMC via Variance Reduction](https://openreview.net/forum?id=iOnhIy-a-0n). ICLR'21.
+4. W. Deng, Q. Feng, G. Karagiannis, G. Lin, F. Liang. [Accelerating Convergence of Replica Exchange Stochastic Gradient MCMC via Variance Reduction](https://openreview.net/forum?id=iOnhIy-a-0n). ICLR'21.
 
