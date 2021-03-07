@@ -12,7 +12,7 @@ Despite the advantages of gradient variance reduction in near-convex problems, a
 
 <p float="left">
   <img src="output/SGLD.gif" width="300" title="SGLD"/>
-  <img src="output/reSGLD_vs_VR_reSGLD.gif" width="500" alt="Made with Angular" title="Angular" /> 
+  <img src="output/reSGLD_vs_VR_reSGLD.gif" width="600" alt="Made with Angular" title="Angular" /> 
 </p>
 
 
