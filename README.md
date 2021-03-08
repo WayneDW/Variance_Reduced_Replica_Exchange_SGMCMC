@@ -16,7 +16,7 @@ Despite the advantages of gradient variance reduction in near-convex problems, a
 </p>
 
 
-Please cite our work if you find it useful in uncertainty estimations
+Please cite our paper [link](https://openreview.net/forum?id=iOnhIy-a-0n) if you find it useful in uncertainty estimations
 
 ```
 @inproceedings{VR-reSGLD,
