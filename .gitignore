@@ -3,3 +3,4 @@ cSGHMC_*
 run_gpu_bma_tune_new.sub
 nohup.out
 output/test
+.Rproj.user

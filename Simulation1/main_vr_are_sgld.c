@@ -181,7 +181,7 @@ int main(int argc, char *argv[]){
 	 * */
 	printf("\n\n ***** OPEN FILES ***** \n\n") ;
 
-	snprintf(output_dir, sizeof output_dir, "%s", "./output_files_svrg_are_sgld");
+	snprintf(output_dir, sizeof output_dir, "%s", "./output_files_vr_are_sgld");
 	for (i = 1; i < argc; i++)
 		if (strcmp("-output_path", argv[i]) == 0)
 			snprintf(output_dir, sizeof output_dir, "%s", argv[++i]);
