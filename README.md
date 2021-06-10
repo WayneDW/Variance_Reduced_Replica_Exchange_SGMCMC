@@ -1,4 +1,4 @@
-# Variance Reduced Replica Exchange SGHMC
+# Variance Reduced Replica Exchange Stochastic Gradient MCMC
 
 Despite the advantages of gradient variance reduction in near-convex problems, a natural discrepancy between theory and practice is that whether we should avoid the gradient noise in non-convex problems. To fill in the gap, we only focus on the variance reduction of **noisy energy estimators** to exploit the theoretical accelerations but no longer consider the variance reduction of the noisy gradients so that the **empirical experience** from stochastic gradient descents with momentum (M-SGD) can be naturally imported.
 
