@@ -21,9 +21,9 @@ Please cite our paper ([link](https://openreview.net/forum?id=iOnhIy-a-0n)) if y
 ```
 @inproceedings{VR-reSGLD,
   title={Accelerating Convergence of Replica Exchange Stochastic Gradient MCMC via Variance Reduction},
-  author={Wei Deng and Qi Feng and Georgios P. Karagiannis and Guang Lin and Faming Liang},
-  booktitle={International Conference on Learning Representations},
-  year={2021}
+  author={Wei Deng and Qian Zhang and Qi Feng and Faming Liang and Guang Lin},
+  booktitle={Thirty-Seventh AAAI Conference on Artificial Intelligence (AAAI'23)},
+  year={2023}
 }
 ```
 
